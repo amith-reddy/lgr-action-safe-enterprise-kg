@@ -1,0 +1,48 @@
+# --- OS / editor noise -------------------------------------------------------
+.DS_Store
+._*
+
+# --- Python ------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# --- LaTeX build intermediates (the .tex and .pdf are tracked) ---------------
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+submission/ickg_lgr_2026/tmp/
+
+# --- Release archives --------------------------------------------------------
+# Rebuild with: python3 scripts/build_lgr_artifact.py --release-candidate rc2
+# Publish these as GitHub Release / Zenodo assets, not as git objects.
+*.tar.gz
+
+# --- Regenerable multiworld outputs ------------------------------------------
+# The 15 worlds' inputs, metrics, and summaries ARE tracked. These four classes
+# are bulk derived artifacts (~410 MB) reproduced by:
+#   PYTHONHASHSEED=0 python3 scripts/run_multiworld_experiments.py \
+#       --output-dir data/evomem_enterprise_v3/worlds --resume --rerun-evaluation
+data/evomem_enterprise_v3/worlds/*/phase3/context_packets_*.jsonl
+data/evomem_enterprise_v3/worlds/*/phase3/llm_inputs_*.jsonl
+data/evomem_enterprise_v3/worlds/*/phase3/llm_proxy_predictions_*.jsonl
+data/evomem_enterprise_v3/worlds/*/phase3/per_task_metrics_*.jsonl
+
+# --- Unrelated project living in this working tree ---------------------------
+toposwe/
+
+# --- Local scratch -----------------------------------------------------------
+verification-output/
+
+# Author working drafts (not part of the published artifact)
+ICKG_*.md
+agentic-ai-lab.json
+submission/ickg_lgr_2026/clarity-review-brief.md
+
+# Superseded 8-page manuscript variant
+submission/ickg_lgr_2026/ickg_lgr_8page.*

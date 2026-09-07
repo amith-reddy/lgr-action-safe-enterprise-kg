@@ -1,0 +1,489 @@
+{
+  "decision_time_bootstrap": {
+    "contradiction_loser_suppression_recall": {
+      "best_baseline": "temporal_kg_retrieval",
+      "best_baseline_mean": 0.9144736842105263,
+      "bootstrap_samples": 1000,
+      "ci95_high": 0.13815789473684215,
+      "ci95_low": 0.03947368421052633,
+      "interval_type": "percentile",
+      "lgr_minus_best_baseline_mean": 0.08578289473684221,
+      "tasks": 76
+    },
+    "eligible_f1": {
+      "best_baseline": "provenance_aware_kg_query",
+      "best_baseline_mean": 0.7563653451811336,
+      "bootstrap_samples": 1000,
+      "ci95_high": 0.24051511354142985,
+      "ci95_low": 0.18955627705627742,
+      "interval_type": "percentile",
+      "lgr_minus_best_baseline_mean": 0.2150158616237568,
+      "tasks": 76
+    },
+    "stale_suppression_recall": {
+      "best_baseline": "ttl_only_memory",
+      "best_baseline_mean": 0.7171052631578947,
+      "bootstrap_samples": 1000,
+      "ci95_high": 0.3421052631578947,
+      "ci95_low": 0.22368421052631582,
+      "interval_type": "percentile",
+      "lgr_minus_best_baseline_mean": 0.28328289473684276,
+      "tasks": 76
+    }
+  },
+  "methods": {
+    "event_sourced_latest_state_action": {
+      "all_tasks": {
+        "eligible_f1": 0.43146031746031743,
+        "eligible_recall": 0.4775,
+        "tasks": 100
+      },
+      "decision_time": {
+        "contradiction_winner_recall": 0.0,
+        "eligible_f1": 0.501921470342523,
+        "eligible_precision": 0.4578947368421055,
+        "eligible_recall": 0.5625,
+        "loser_non_exposure": 0.8223684210526315,
+        "stale_non_exposure": 0.7105263157894737,
+        "tasks": 76
+      },
+      "retrospective": {
+        "contradiction_winner_recall": 0.0,
+        "eligible_f1": 0.2631578947368421,
+        "eligible_precision": 0.2631578947368421,
+        "eligible_recall": 0.2631578947368421,
+        "loser_non_exposure": 0.868421052631579,
+        "stale_non_exposure": 0.2894736842105263,
+        "tasks": 19
+      },
+      "scope_unsatisfiable": {
+        "contradiction_winner_recall": 0.0,
+        "eligible_f1": 0.0,
+        "eligible_precision": 0.0,
+        "eligible_recall": 0.0,
+        "loser_non_exposure": 1.0,
+        "stale_non_exposure": 0.5,
+        "tasks": 5
+      }
+    },
+    "graphrag_style_graph_retrieval": {
+      "all_tasks": {
+        "eligible_f1": 0.6084451659451652,
+        "eligible_recall": 0.885,
+        "tasks": 100
+      },
+      "decision_time": {
+        "contradiction_winner_recall": 0.2894736842105263,
+        "eligible_f1": 0.6961266803372059,
+        "eligible_precision": 0.5695332080200498,
+        "eligible_recall": 0.993421052631579,
+        "loser_non_exposure": 0.75,
+        "stale_non_exposure": 0.6776315789473685,
+        "tasks": 76
+      },
+      "retrospective": {
+        "contradiction_winner_recall": 0.21052631578947367,
+        "eligible_f1": 0.4178362573099415,
+        "eligible_precision": 0.325187969924812,
+        "eligible_recall": 0.6842105263157895,
+        "loser_non_exposure": 0.7894736842105263,
+        "stale_non_exposure": 0.2631578947368421,
+        "tasks": 19
+      },
+      "scope_unsatisfiable": {
+        "contradiction_winner_recall": 0.0,
+        "eligible_f1": 0.0,
+        "eligible_precision": 0.0,
+        "eligible_recall": 0.0,
+        "loser_non_exposure": 1.0,
+        "stale_non_exposure": 0.5,
+        "tasks": 5
+      }
+    },
+    "lexical_top_k_memory": {
+      "all_tasks": {
+        "eligible_f1": 0.37769696969696936,
+        "eligible_recall": 0.98,
+        "tasks": 100
+      },
+      "decision_time": {
+        "contradiction_winner_recall": 0.4868421052631579,
+        "eligible_f1": 0.4092503987240828,
+        "eligible_precision": 0.2746710526315789,
+        "eligible_recall": 1.0,
+        "loser_non_exposure": 0.7697368421052632,
+        "stale_non_exposure": 0.47368421052631576,
+        "tasks": 76
+      },
+      "retrospective": {
+        "contradiction_winner_recall": 0.631578947368421,
+        "eligible_f1": 0.3157894736842106,
+        "eligible_precision": 0.19078947368421054,
+        "eligible_recall": 1.0,
+        "loser_non_exposure": 0.6578947368421053,
+        "stale_non_exposure": 0.07894736842105263,
+        "tasks": 19
+      },
+      "scope_unsatisfiable": {
+        "contradiction_winner_recall": 0.8,
+        "eligible_f1": 0.13333333333333333,
+        "eligible_precision": 0.075,
+        "eligible_recall": 0.6,
+        "loser_non_exposure": 1.0,
+        "stale_non_exposure": 0.0,
+        "tasks": 5
+      }
+    },
+    "lifecycle_governed_kg_retrieval": {
+      "all_tasks": {
+        "eligible_f1": 0.7382936507936507,
+        "eligible_recall": 0.76,
+        "tasks": 100
+      },
+      "decision_time": {
+        "contradiction_winner_recall": 0.09210526315789473,
+        "eligible_f1": 0.971439014202172,
+        "eligible_precision": 0.9596491228070176,
+        "eligible_recall": 1.0,
+        "loser_non_exposure": 1.0,
+        "stale_non_exposure": 1.0,
+        "tasks": 76
+      },
+      "retrospective": {
+        "contradiction_winner_recall": 0.0,
+        "eligible_f1": 0.0,
+        "eligible_precision": 0.0,
+        "eligible_recall": 0.0,
+        "loser_non_exposure": 1.0,
+        "stale_non_exposure": 1.0,
+        "tasks": 19
+      },
+      "scope_unsatisfiable": {
+        "contradiction_winner_recall": 0.0,
+        "eligible_f1": 0.0,
+        "eligible_precision": 0.0,
+        "eligible_recall": 0.0,
+        "loser_non_exposure": 1.0,
+        "stale_non_exposure": 1.0,
+        "tasks": 5
+      }
+    },
+    "ontology_versioned_retrieval": {
+      "all_tasks": {
+        "eligible_f1": 0.6178932178932173,
+        "eligible_recall": 0.91,
+        "tasks": 100
+      },
+      "decision_time": {
+        "contradiction_winner_recall": 0.1118421052631579,
+        "eligible_f1": 0.6931343510290875,
+        "eligible_precision": 0.5627662907268167,
+        "eligible_recall": 1.0,
+        "loser_non_exposure": 0.9078947368421053,
+        "stale_non_exposure": 0.3881578947368421,
+        "tasks": 76
+      },
+      "retrospective": {
+        "contradiction_winner_recall": 0.05263157894736842,
+        "eligible_f1": 0.42105263157894735,
+        "eligible_precision": 0.3508771929824562,
+        "eligible_recall": 0.5263157894736842,
+        "loser_non_exposure": 0.9473684210526315,
+        "stale_non_exposure": 0.0,
+        "tasks": 19
+      },
+      "scope_unsatisfiable": {
+        "contradiction_winner_recall": 0.7,
+        "eligible_f1": 0.22222222222222224,
+        "eligible_precision": 0.125,
+        "eligible_recall": 1.0,
+        "loser_non_exposure": 0.5,
+        "stale_non_exposure": 0.0,
+        "tasks": 5
+      }
+    },
+    "provenance_aware_kg_query": {
+      "all_tasks": {
+        "eligible_f1": 0.6548376623376613,
+        "eligible_recall": 0.86,
+        "tasks": 100
+      },
+      "decision_time": {
+        "contradiction_winner_recall": 0.1118421052631579,
+        "eligible_f1": 0.7563653451811336,
+        "eligible_precision": 0.6319862155388468,
+        "eligible_recall": 1.0,
+        "loser_non_exposure": 0.9078947368421053,
+        "stale_non_exposure": 0.6776315789473685,
+        "tasks": 76
+      },
+      "retrospective": {
+        "contradiction_winner_recall": 0.0,
+        "eligible_f1": 0.42105263157894735,
+        "eligible_precision": 0.3508771929824562,
+        "eligible_recall": 0.5263157894736842,
+        "loser_non_exposure": 1.0,
+        "stale_non_exposure": 0.23684210526315788,
+        "tasks": 19
+      },
+      "scope_unsatisfiable": {
+        "contradiction_winner_recall": 0.0,
+        "eligible_f1": 0.0,
+        "eligible_precision": 0.0,
+        "eligible_recall": 0.0,
+        "loser_non_exposure": 1.0,
+        "stale_non_exposure": 0.5,
+        "tasks": 5
+      }
+    },
+    "recency_weighted_memory": {
+      "all_tasks": {
+        "eligible_f1": 0.6084451659451652,
+        "eligible_recall": 0.885,
+        "tasks": 100
+      },
+      "decision_time": {
+        "contradiction_winner_recall": 0.2894736842105263,
+        "eligible_f1": 0.6961266803372059,
+        "eligible_precision": 0.5695332080200498,
+        "eligible_recall": 0.993421052631579,
+        "loser_non_exposure": 0.75,
+        "stale_non_exposure": 0.6776315789473685,
+        "tasks": 76
+      },
+      "retrospective": {
+        "contradiction_winner_recall": 0.21052631578947367,
+        "eligible_f1": 0.4178362573099415,
+        "eligible_precision": 0.325187969924812,
+        "eligible_recall": 0.6842105263157895,
+        "loser_non_exposure": 0.7894736842105263,
+        "stale_non_exposure": 0.2631578947368421,
+        "tasks": 19
+      },
+      "scope_unsatisfiable": {
+        "contradiction_winner_recall": 0.0,
+        "eligible_f1": 0.0,
+        "eligible_precision": 0.0,
+        "eligible_recall": 0.0,
+        "loser_non_exposure": 1.0,
+        "stale_non_exposure": 0.5,
+        "tasks": 5
+      }
+    },
+    "temporal_kg_retrieval": {
+      "all_tasks": {
+        "eligible_f1": 0.6401558441558433,
+        "eligible_recall": 0.86,
+        "tasks": 100
+      },
+      "decision_time": {
+        "contradiction_winner_recall": 0.1118421052631579,
+        "eligible_f1": 0.737047163362952,
+        "eligible_precision": 0.6111215538847116,
+        "eligible_recall": 1.0,
+        "loser_non_exposure": 0.9144736842105263,
+        "stale_non_exposure": 0.6776315789473685,
+        "tasks": 76
+      },
+      "retrospective": {
+        "contradiction_winner_recall": 0.0,
+        "eligible_f1": 0.42105263157894735,
+        "eligible_precision": 0.3508771929824562,
+        "eligible_recall": 0.5263157894736842,
+        "loser_non_exposure": 1.0,
+        "stale_non_exposure": 0.23684210526315788,
+        "tasks": 19
+      },
+      "scope_unsatisfiable": {
+        "contradiction_winner_recall": 0.0,
+        "eligible_f1": 0.0,
+        "eligible_precision": 0.0,
+        "eligible_recall": 0.0,
+        "loser_non_exposure": 1.0,
+        "stale_non_exposure": 0.5,
+        "tasks": 5
+      }
+    },
+    "ttl_only_memory": {
+      "all_tasks": {
+        "eligible_f1": 0.6117784992784984,
+        "eligible_recall": 0.89,
+        "tasks": 100
+      },
+      "decision_time": {
+        "contradiction_winner_recall": 0.2894736842105263,
+        "eligible_f1": 0.7005126452494865,
+        "eligible_precision": 0.5728226817042603,
+        "eligible_recall": 1.0,
+        "loser_non_exposure": 0.7894736842105263,
+        "stale_non_exposure": 0.7171052631578947,
+        "tasks": 76
+      },
+      "retrospective": {
+        "contradiction_winner_recall": 0.21052631578947367,
+        "eligible_f1": 0.4178362573099415,
+        "eligible_precision": 0.325187969924812,
+        "eligible_recall": 0.6842105263157895,
+        "loser_non_exposure": 0.8157894736842105,
+        "stale_non_exposure": 0.2631578947368421,
+        "tasks": 19
+      },
+      "scope_unsatisfiable": {
+        "contradiction_winner_recall": 0.0,
+        "eligible_f1": 0.0,
+        "eligible_precision": 0.0,
+        "eligible_recall": 0.0,
+        "loser_non_exposure": 1.0,
+        "stale_non_exposure": 0.5,
+        "tasks": 5
+      }
+    }
+  },
+  "regime_definition": {
+    "decision_time": "every gold-eligible assertion was recorded at or before the query instant and lies inside the query's declared entity and relation scope, so the gold set is one a decision-time operator may return",
+    "retrospective": "at least one gold-eligible assertion was recorded after the query instant",
+    "scope_unsatisfiable": "every gold-eligible assertion was visible in time, but at least one lies outside the query's declared scope, so the operator's own scope rule forbids returning the gold set"
+  },
+  "task_counts": {
+    "decision_time": 76,
+    "retrospective": 19,
+    "scope_unsatisfiable": 5
+  },
+  "task_types_by_regime": {
+    "audit_valid_historical_explanation": {
+      "decision_time": 0,
+      "retrospective": 10,
+      "scope_unsatisfiable": 0
+    },
+    "contradiction_handling": {
+      "decision_time": 2,
+      "retrospective": 9,
+      "scope_unsatisfiable": 5
+    },
+    "current_factual_recall": {
+      "decision_time": 17,
+      "retrospective": 0,
+      "scope_unsatisfiable": 0
+    },
+    "policy_valid_refund_action": {
+      "decision_time": 14,
+      "retrospective": 0,
+      "scope_unsatisfiable": 0
+    },
+    "relationship_aware_retrieval": {
+      "decision_time": 14,
+      "retrospective": 0,
+      "scope_unsatisfiable": 0
+    },
+    "sla_valid_escalation_action": {
+      "decision_time": 17,
+      "retrospective": 0,
+      "scope_unsatisfiable": 0
+    },
+    "workflow_state_next_action": {
+      "decision_time": 12,
+      "retrospective": 0,
+      "scope_unsatisfiable": 0
+    }
+  },
+  "unsatisfiable_reasons": {
+    "t_00102": [
+      "a_00547:recorded_after_query",
+      "a_00547:relation_out_of_scope"
+    ],
+    "t_00104": [
+      "a_00485:relation_out_of_scope"
+    ],
+    "t_00106": [
+      "a_00493:relation_out_of_scope"
+    ],
+    "t_00108": [
+      "a_00501:recorded_after_query",
+      "a_00501:relation_out_of_scope"
+    ],
+    "t_00109": [
+      "a_00505:recorded_after_query",
+      "a_00505:relation_out_of_scope"
+    ],
+    "t_00110": [
+      "a_00509:recorded_after_query"
+    ],
+    "t_00111": [
+      "a_00513:recorded_after_query",
+      "a_00513:relation_out_of_scope"
+    ],
+    "t_00112": [
+      "a_00517:recorded_after_query"
+    ],
+    "t_00113": [
+      "a_00521:relation_out_of_scope"
+    ],
+    "t_00115": [
+      "a_00529:relation_out_of_scope"
+    ],
+    "t_00116": [
+      "a_00533:relation_out_of_scope"
+    ],
+    "t_00117": [
+      "a_00537:recorded_after_query"
+    ],
+    "t_00118": [
+      "a_00541:recorded_after_query",
+      "a_00541:relation_out_of_scope"
+    ],
+    "t_00120": [
+      "a_00549:recorded_after_query",
+      "a_00549:relation_out_of_scope"
+    ],
+    "t_00122": [
+      "a_00217:recorded_after_query",
+      "a_00217:relation_out_of_scope",
+      "a_00218:recorded_after_query"
+    ],
+    "t_00125": [
+      "a_00289:recorded_after_query",
+      "a_00289:relation_out_of_scope",
+      "a_00290:recorded_after_query"
+    ],
+    "t_00127": [
+      "a_00337:recorded_after_query",
+      "a_00337:relation_out_of_scope",
+      "a_00338:recorded_after_query"
+    ],
+    "t_00129": [
+      "a_00385:recorded_after_query",
+      "a_00385:relation_out_of_scope",
+      "a_00386:recorded_after_query"
+    ],
+    "t_00131": [
+      "a_00013:recorded_after_query",
+      "a_00013:relation_out_of_scope",
+      "a_00014:recorded_after_query"
+    ],
+    "t_00132": [
+      "a_00037:recorded_after_query",
+      "a_00037:relation_out_of_scope",
+      "a_00038:recorded_after_query"
+    ],
+    "t_00134": [
+      "a_00085:recorded_after_query",
+      "a_00085:relation_out_of_scope",
+      "a_00086:recorded_after_query"
+    ],
+    "t_00136": [
+      "a_00133:recorded_after_query",
+      "a_00133:relation_out_of_scope",
+      "a_00134:recorded_after_query"
+    ],
+    "t_00137": [
+      "a_00157:recorded_after_query",
+      "a_00157:relation_out_of_scope",
+      "a_00158:recorded_after_query"
+    ],
+    "t_00139": [
+      "a_00205:recorded_after_query",
+      "a_00205:relation_out_of_scope",
+      "a_00206:recorded_after_query"
+    ]
+  }
+}

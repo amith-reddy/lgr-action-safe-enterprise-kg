@@ -1,0 +1,31 @@
+{
+  "case_id": "",
+  "author_role": "",
+  "source_type": "public|restricted|constructed",
+  "source_citations": [],
+  "synthetic_additions": {
+    "ontology_mappings": [],
+    "trust_order": [],
+    "registry_entries": [],
+    "policy_rules": [],
+    "workflow_transitions": []
+  },
+  "query": {
+    "observation_time": "",
+    "entity_scope": [],
+    "relation_scope": [],
+    "candidate_actions": []
+  },
+  "assertion_events": [],
+  "expected": {
+    "eligible_before_conflict": [],
+    "resolved_evidence": [],
+    "unresolved_conflicts": [],
+    "valid_actions": [],
+    "blocked_actions": [],
+    "reason_codes": {}
+  },
+  "rationale": "",
+  "frozen_at": null,
+  "adjudication": null
+}

@@ -1,0 +1,12 @@
+{
+  "relations": [
+    "product_entitlement",
+    "support_entitlement",
+    "contractual_entitlement",
+    "sla_profile",
+    "workflow_state",
+    "subscription_status",
+    "account_owner"
+  ],
+  "version": "ov_3"
+}

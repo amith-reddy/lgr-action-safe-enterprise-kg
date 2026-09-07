@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "action": "issue_refund",
+      "kind": "effectful",
+      "policy_family": "refund",
+      "workflow_type": "refund_workflow"
+    },
+    {
+      "action": "request_manager_approval",
+      "kind": "effectful",
+      "policy_family": "refund",
+      "workflow_type": "refund_workflow"
+    },
+    {
+      "action": "deny_refund",
+      "kind": "effectful",
+      "policy_family": "refund",
+      "workflow_type": "refund_workflow"
+    },
+    {
+      "action": "reject_refund",
+      "kind": "effectful",
+      "policy_family": "refund",
+      "workflow_type": "refund_workflow"
+    },
+    {
+      "action": "escalate_ticket",
+      "kind": "effectful",
+      "policy_family": "sla",
+      "workflow_type": "support_escalation_workflow"
+    },
+    {
+      "action": "request_customer_info",
+      "kind": "effectful",
+      "policy_family": "sla",
+      "workflow_type": "support_escalation_workflow"
+    },
+    {
+      "action": "resolve_ticket",
+      "kind": "effectful",
+      "policy_family": "sla",
+      "workflow_type": "support_escalation_workflow"
+    }
+  ],
+  "version": "action-registry-v1"
+}

@@ -1,0 +1,97 @@
+{
+  "ablations": [
+    "lgr_no_lifecycle_state",
+    "lgr_no_record_visibility",
+    "lgr_no_validity_interval",
+    "lgr_no_provenance_activity",
+    "lgr_no_source_eligibility",
+    "lgr_no_ontology_versioning",
+    "lgr_no_policy_versioning",
+    "lgr_no_supersession_links",
+    "lgr_no_contradiction_resolver",
+    "lgr_no_conflict_trust",
+    "lgr_no_workflow_instance_scope",
+    "lgr_no_action_target_binding",
+    "lgr_no_bitemporal_checks",
+    "lgr_no_workflow_scope_or_target_binding"
+  ],
+  "confidence_intervals": {
+    "action_exact_match_action_only": {
+      "best_baseline": "lexical_top_k_memory",
+      "bootstrap_samples": 1000,
+      "ci95_high": 0.0,
+      "ci95_low": 0.0,
+      "lgr_minus_best_baseline_mean": 0.0
+    },
+    "contradiction_loser_suppression_recall": {
+      "best_baseline": "temporal_kg_retrieval",
+      "bootstrap_samples": 1000,
+      "ci95_high": 0.09999999999999998,
+      "ci95_low": 0.03500000000000003,
+      "lgr_minus_best_baseline_mean": 0.06461500000000032
+    },
+    "eligible_f1": {
+      "best_baseline": "provenance_aware_kg_query",
+      "bootstrap_samples": 1000,
+      "ci95_high": 0.14344444444444482,
+      "ci95_low": 0.007297258297258802,
+      "lgr_minus_best_baseline_mean": 0.07747559090909138
+    },
+    "llm_selected_action_valid_accuracy_action_only": {
+      "best_baseline": "lexical_top_k_memory",
+      "bootstrap_samples": 1000,
+      "ci95_high": 0.0,
+      "ci95_low": 0.0,
+      "lgr_minus_best_baseline_mean": 0.0
+    },
+    "stale_suppression_recall": {
+      "best_baseline": "event_sourced_latest_state_action",
+      "bootstrap_samples": 1000,
+      "ci95_high": 0.43999999999999995,
+      "ci95_low": 0.31499999999999995,
+      "lgr_minus_best_baseline_mean": 0.37623499999999854
+    }
+  },
+  "errors": [],
+  "lgr_test_metrics": {
+    "action_exact_match_action_only": 1.0,
+    "action_tasks": 46,
+    "audit_trace_completeness": 0.0,
+    "blocked_action_correctness_action_only": 1.0,
+    "cited_assertion_support_precision": 0.88,
+    "contradiction_loser_suppression_recall": 1.0,
+    "contradiction_winner_recall": 0.085,
+    "eligible_f1": 0.7406984126984126,
+    "eligible_precision": 0.7295,
+    "eligible_recall": 0.77,
+    "end_to_end_proxy_latency_ms": 2.220869999999999,
+    "hallucinated_assertion_rate": 0.0,
+    "llm_answer_accuracy": 0.76,
+    "llm_invalid_action_rate_action_only": 0.0,
+    "llm_selected_action_valid_accuracy_action_only": 1.0,
+    "policy_valid_action_accuracy": 1.0,
+    "provenance_constrained_accuracy": 1.0,
+    "retrieval_latency_ms": 2.220869999999999,
+    "stale_exposure_rate": 0.0,
+    "stale_suppression_recall": 1.0,
+    "supersession_detection_f1": 0.35251587301587295,
+    "support_complete_set_rate": 0.72,
+    "tasks": 100,
+    "temporal_validity_consistency": 0.88,
+    "token_count_estimate": 368.46,
+    "version_entity_relation_accuracy": 0.88,
+    "workflow_state_eligibility_accuracy": 1.0
+  },
+  "required_methods": [
+    "lexical_top_k_memory",
+    "recency_weighted_memory",
+    "ttl_only_memory",
+    "temporal_kg_retrieval",
+    "provenance_aware_kg_query",
+    "ontology_versioned_retrieval",
+    "graphrag_style_graph_retrieval",
+    "event_sourced_latest_state_action",
+    "lifecycle_governed_kg_retrieval"
+  ],
+  "status": "pass"
+}

@@ -1,0 +1,2528 @@
+{
+  "action_equal_to_gold": 40,
+  "action_tasks": 40,
+  "comparator": "standalone-custom-governance-composition-v2",
+  "evidence_equal_to_lgr": 100,
+  "imports_lgr_operator": false,
+  "per_task": [
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00062"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00062"
+      ],
+      "task_id": "t_00003"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00086"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00086"
+      ],
+      "task_id": "t_00004"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00110"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00110"
+      ],
+      "task_id": "t_00005"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00134"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00134"
+      ],
+      "task_id": "t_00006"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00158"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00158"
+      ],
+      "task_id": "t_00007"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00182"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00182"
+      ],
+      "task_id": "t_00008"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00206"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00206"
+      ],
+      "task_id": "t_00009"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00230"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00230"
+      ],
+      "task_id": "t_00010"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00254"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00254"
+      ],
+      "task_id": "t_00011"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00278"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00278"
+      ],
+      "task_id": "t_00012"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00302"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00302"
+      ],
+      "task_id": "t_00013"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00350"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00350"
+      ],
+      "task_id": "t_00015"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00374"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00374"
+      ],
+      "task_id": "t_00016"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00398"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00398"
+      ],
+      "task_id": "t_00017"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00002"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00002"
+      ],
+      "task_id": "t_00018"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00026"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00026"
+      ],
+      "task_id": "t_00019"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00050"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00050"
+      ],
+      "task_id": "t_00020"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00305"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00305"
+      ],
+      "task_id": "t_00023"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00329"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00329"
+      ],
+      "task_id": "t_00024"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00353"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00353"
+      ],
+      "task_id": "t_00025"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00377"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00377"
+      ],
+      "task_id": "t_00026"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00485"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00485"
+      ],
+      "task_id": "t_00029"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00125"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00125"
+      ],
+      "task_id": "t_00033"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00149"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00149"
+      ],
+      "task_id": "t_00034"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00173"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00173"
+      ],
+      "task_id": "t_00035"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00197"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00197"
+      ],
+      "task_id": "t_00036"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00221"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00221"
+      ],
+      "task_id": "t_00037"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00269"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00269"
+      ],
+      "task_id": "t_00039"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00293"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00293"
+      ],
+      "task_id": "t_00040"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "issue_refund",
+        "request_manager_approval"
+      ],
+      "composed_evidence": [
+        "a_00100",
+        "a_00105",
+        "a_00497",
+        "a_00567"
+      ],
+      "composed_support": {
+        "reject_refund": [
+          "a_00105"
+        ]
+      },
+      "composed_valid_actions": [
+        "reject_refund"
+      ],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "issue_refund",
+        "request_manager_approval"
+      ],
+      "gold_support": {
+        "reject_refund": [
+          "a_00105"
+        ]
+      },
+      "gold_valid_actions": [
+        "reject_refund"
+      ],
+      "lgr_evidence": [
+        "a_00100",
+        "a_00105",
+        "a_00497",
+        "a_00567"
+      ],
+      "task_id": "t_00042"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "issue_refund"
+      ],
+      "composed_evidence": [
+        "a_00146",
+        "a_00148",
+        "a_00153"
+      ],
+      "composed_support": {
+        "deny_refund": [
+          "a_00153"
+        ],
+        "request_manager_approval": [
+          "a_00153"
+        ]
+      },
+      "composed_valid_actions": [
+        "deny_refund",
+        "request_manager_approval"
+      ],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "issue_refund"
+      ],
+      "gold_support": {
+        "deny_refund": [
+          "a_00153"
+        ],
+        "request_manager_approval": [
+          "a_00153"
+        ]
+      },
+      "gold_valid_actions": [
+        "deny_refund",
+        "request_manager_approval"
+      ],
+      "lgr_evidence": [
+        "a_00146",
+        "a_00148",
+        "a_00153"
+      ],
+      "task_id": "t_00044"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "issue_refund",
+        "request_manager_approval"
+      ],
+      "composed_evidence": [
+        "a_00170",
+        "a_00172",
+        "a_00177"
+      ],
+      "composed_support": {
+        "reject_refund": [
+          "a_00177"
+        ]
+      },
+      "composed_valid_actions": [
+        "reject_refund"
+      ],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "issue_refund",
+        "request_manager_approval"
+      ],
+      "gold_support": {
+        "reject_refund": [
+          "a_00177"
+        ]
+      },
+      "gold_valid_actions": [
+        "reject_refund"
+      ],
+      "lgr_evidence": [
+        "a_00170",
+        "a_00172",
+        "a_00177"
+      ],
+      "task_id": "t_00045"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "issue_refund"
+      ],
+      "composed_evidence": [
+        "a_00218",
+        "a_00220",
+        "a_00225"
+      ],
+      "composed_support": {
+        "deny_refund": [
+          "a_00225"
+        ],
+        "request_manager_approval": [
+          "a_00225"
+        ]
+      },
+      "composed_valid_actions": [
+        "deny_refund",
+        "request_manager_approval"
+      ],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "issue_refund"
+      ],
+      "gold_support": {
+        "deny_refund": [
+          "a_00225"
+        ],
+        "request_manager_approval": [
+          "a_00225"
+        ]
+      },
+      "gold_valid_actions": [
+        "deny_refund",
+        "request_manager_approval"
+      ],
+      "lgr_evidence": [
+        "a_00218",
+        "a_00220",
+        "a_00225"
+      ],
+      "task_id": "t_00047"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "issue_refund",
+        "request_manager_approval"
+      ],
+      "composed_evidence": [
+        "a_00242",
+        "a_00244",
+        "a_00249"
+      ],
+      "composed_support": {
+        "reject_refund": [
+          "a_00249"
+        ]
+      },
+      "composed_valid_actions": [
+        "reject_refund"
+      ],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "issue_refund",
+        "request_manager_approval"
+      ],
+      "gold_support": {
+        "reject_refund": [
+          "a_00249"
+        ]
+      },
+      "gold_valid_actions": [
+        "reject_refund"
+      ],
+      "lgr_evidence": [
+        "a_00242",
+        "a_00244",
+        "a_00249"
+      ],
+      "task_id": "t_00048"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "deny_refund",
+        "issue_refund",
+        "request_manager_approval"
+      ],
+      "composed_evidence": [
+        "a_00268",
+        "a_00273",
+        "a_00525"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "deny_refund",
+        "issue_refund",
+        "request_manager_approval"
+      ],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00268",
+        "a_00273",
+        "a_00525"
+      ],
+      "task_id": "t_00049"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "issue_refund"
+      ],
+      "composed_evidence": [
+        "a_00290",
+        "a_00292",
+        "a_00297"
+      ],
+      "composed_support": {
+        "deny_refund": [
+          "a_00297"
+        ],
+        "request_manager_approval": [
+          "a_00297"
+        ]
+      },
+      "composed_valid_actions": [
+        "deny_refund",
+        "request_manager_approval"
+      ],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "issue_refund"
+      ],
+      "gold_support": {
+        "deny_refund": [
+          "a_00297"
+        ],
+        "request_manager_approval": [
+          "a_00297"
+        ]
+      },
+      "gold_valid_actions": [
+        "deny_refund",
+        "request_manager_approval"
+      ],
+      "lgr_evidence": [
+        "a_00290",
+        "a_00292",
+        "a_00297"
+      ],
+      "task_id": "t_00050"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "issue_refund"
+      ],
+      "composed_evidence": [
+        "a_00362",
+        "a_00364",
+        "a_00369"
+      ],
+      "composed_support": {
+        "deny_refund": [
+          "a_00369"
+        ],
+        "request_manager_approval": [
+          "a_00369"
+        ]
+      },
+      "composed_valid_actions": [
+        "deny_refund",
+        "request_manager_approval"
+      ],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "issue_refund"
+      ],
+      "gold_support": {
+        "deny_refund": [
+          "a_00369"
+        ],
+        "request_manager_approval": [
+          "a_00369"
+        ]
+      },
+      "gold_valid_actions": [
+        "deny_refund",
+        "request_manager_approval"
+      ],
+      "lgr_evidence": [
+        "a_00362",
+        "a_00364",
+        "a_00369"
+      ],
+      "task_id": "t_00053"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "issue_refund",
+        "request_manager_approval"
+      ],
+      "composed_evidence": [
+        "a_00386",
+        "a_00388",
+        "a_00393"
+      ],
+      "composed_support": {
+        "reject_refund": [
+          "a_00393"
+        ]
+      },
+      "composed_valid_actions": [
+        "reject_refund"
+      ],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "issue_refund",
+        "request_manager_approval"
+      ],
+      "gold_support": {
+        "reject_refund": [
+          "a_00393"
+        ]
+      },
+      "gold_valid_actions": [
+        "reject_refund"
+      ],
+      "lgr_evidence": [
+        "a_00386",
+        "a_00388",
+        "a_00393"
+      ],
+      "task_id": "t_00054"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "deny_refund",
+        "issue_refund",
+        "request_manager_approval"
+      ],
+      "composed_evidence": [
+        "a_00410",
+        "a_00412",
+        "a_00417"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "deny_refund",
+        "issue_refund",
+        "request_manager_approval"
+      ],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00410",
+        "a_00412",
+        "a_00417"
+      ],
+      "task_id": "t_00055"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "deny_refund",
+        "issue_refund",
+        "request_manager_approval"
+      ],
+      "composed_evidence": [
+        "a_00062",
+        "a_00064",
+        "a_00069"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "deny_refund",
+        "issue_refund",
+        "request_manager_approval"
+      ],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00062",
+        "a_00064",
+        "a_00069"
+      ],
+      "task_id": "t_00058"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "deny_refund",
+        "issue_refund",
+        "request_manager_approval"
+      ],
+      "composed_evidence": [
+        "a_00086",
+        "a_00088",
+        "a_00093",
+        "a_00495",
+        "a_00565"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "deny_refund",
+        "issue_refund",
+        "request_manager_approval"
+      ],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00086",
+        "a_00088",
+        "a_00093",
+        "a_00495",
+        "a_00565"
+      ],
+      "task_id": "t_00059"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "deny_refund",
+        "request_manager_approval"
+      ],
+      "composed_evidence": [
+        "a_00110",
+        "a_00112",
+        "a_00117"
+      ],
+      "composed_support": {
+        "issue_refund": [
+          "a_00112",
+          "a_00117"
+        ]
+      },
+      "composed_valid_actions": [
+        "issue_refund"
+      ],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "deny_refund",
+        "request_manager_approval"
+      ],
+      "gold_support": {
+        "issue_refund": [
+          "a_00112",
+          "a_00117"
+        ]
+      },
+      "gold_valid_actions": [
+        "issue_refund"
+      ],
+      "lgr_evidence": [
+        "a_00110",
+        "a_00112",
+        "a_00117"
+      ],
+      "task_id": "t_00060"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "escalate_ticket",
+        "request_customer_info",
+        "resolve_ticket"
+      ],
+      "composed_evidence": [
+        "a_00338",
+        "a_00342",
+        "a_00346",
+        "a_00347"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "escalate_ticket",
+        "request_customer_info",
+        "resolve_ticket"
+      ],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00338",
+        "a_00342",
+        "a_00346",
+        "a_00347"
+      ],
+      "task_id": "t_00062"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "resolve_ticket"
+      ],
+      "composed_evidence": [
+        "a_00362",
+        "a_00366",
+        "a_00370",
+        "a_00371"
+      ],
+      "composed_support": {
+        "escalate_ticket": [
+          "a_00362",
+          "a_00370",
+          "a_00371"
+        ],
+        "request_customer_info": [
+          "a_00370"
+        ]
+      },
+      "composed_valid_actions": [
+        "escalate_ticket",
+        "request_customer_info"
+      ],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "resolve_ticket"
+      ],
+      "gold_support": {
+        "escalate_ticket": [
+          "a_00362",
+          "a_00370",
+          "a_00371"
+        ],
+        "request_customer_info": [
+          "a_00370"
+        ]
+      },
+      "gold_valid_actions": [
+        "escalate_ticket",
+        "request_customer_info"
+      ],
+      "lgr_evidence": [
+        "a_00362",
+        "a_00366",
+        "a_00370",
+        "a_00371"
+      ],
+      "task_id": "t_00063"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "escalate_ticket",
+        "request_customer_info"
+      ],
+      "composed_evidence": [
+        "a_00386",
+        "a_00390",
+        "a_00394",
+        "a_00395"
+      ],
+      "composed_support": {
+        "resolve_ticket": [
+          "a_00394"
+        ]
+      },
+      "composed_valid_actions": [
+        "resolve_ticket"
+      ],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "escalate_ticket",
+        "request_customer_info"
+      ],
+      "gold_support": {
+        "resolve_ticket": [
+          "a_00394"
+        ]
+      },
+      "gold_valid_actions": [
+        "resolve_ticket"
+      ],
+      "lgr_evidence": [
+        "a_00386",
+        "a_00390",
+        "a_00394",
+        "a_00395"
+      ],
+      "task_id": "t_00064"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "escalate_ticket",
+        "request_customer_info",
+        "resolve_ticket"
+      ],
+      "composed_evidence": [
+        "a_00410",
+        "a_00414",
+        "a_00418",
+        "a_00419"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "escalate_ticket",
+        "request_customer_info",
+        "resolve_ticket"
+      ],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00410",
+        "a_00414",
+        "a_00418",
+        "a_00419"
+      ],
+      "task_id": "t_00065"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "escalate_ticket",
+        "request_customer_info",
+        "resolve_ticket"
+      ],
+      "composed_evidence": [
+        "a_00014",
+        "a_00018",
+        "a_00022",
+        "a_00023",
+        "a_00483"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "escalate_ticket",
+        "request_customer_info",
+        "resolve_ticket"
+      ],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00014",
+        "a_00018",
+        "a_00022",
+        "a_00023",
+        "a_00483"
+      ],
+      "task_id": "t_00066"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "escalate_ticket",
+        "resolve_ticket"
+      ],
+      "composed_evidence": [
+        "a_00062",
+        "a_00066",
+        "a_00070",
+        "a_00071",
+        "a_00491",
+        "a_00561"
+      ],
+      "composed_support": {
+        "request_customer_info": [
+          "a_00070"
+        ]
+      },
+      "composed_valid_actions": [
+        "request_customer_info"
+      ],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "escalate_ticket",
+        "resolve_ticket"
+      ],
+      "gold_support": {
+        "request_customer_info": [
+          "a_00070"
+        ]
+      },
+      "gold_valid_actions": [
+        "request_customer_info"
+      ],
+      "lgr_evidence": [
+        "a_00062",
+        "a_00066",
+        "a_00070",
+        "a_00071",
+        "a_00491",
+        "a_00561"
+      ],
+      "task_id": "t_00068"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "escalate_ticket",
+        "request_customer_info"
+      ],
+      "composed_evidence": [
+        "a_00086",
+        "a_00090",
+        "a_00094",
+        "a_00095"
+      ],
+      "composed_support": {
+        "resolve_ticket": [
+          "a_00094"
+        ]
+      },
+      "composed_valid_actions": [
+        "resolve_ticket"
+      ],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "escalate_ticket",
+        "request_customer_info"
+      ],
+      "gold_support": {
+        "resolve_ticket": [
+          "a_00094"
+        ]
+      },
+      "gold_valid_actions": [
+        "resolve_ticket"
+      ],
+      "lgr_evidence": [
+        "a_00086",
+        "a_00090",
+        "a_00094",
+        "a_00095"
+      ],
+      "task_id": "t_00069"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "escalate_ticket",
+        "request_customer_info",
+        "resolve_ticket"
+      ],
+      "composed_evidence": [
+        "a_00110",
+        "a_00114",
+        "a_00118",
+        "a_00119"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "escalate_ticket",
+        "request_customer_info",
+        "resolve_ticket"
+      ],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00110",
+        "a_00114",
+        "a_00118",
+        "a_00119"
+      ],
+      "task_id": "t_00070"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "escalate_ticket",
+        "request_customer_info",
+        "resolve_ticket"
+      ],
+      "composed_evidence": [
+        "a_00134",
+        "a_00138",
+        "a_00142",
+        "a_00143"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "escalate_ticket",
+        "request_customer_info",
+        "resolve_ticket"
+      ],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00134",
+        "a_00138",
+        "a_00142",
+        "a_00143"
+      ],
+      "task_id": "t_00071"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "escalate_ticket",
+        "request_customer_info",
+        "resolve_ticket"
+      ],
+      "composed_evidence": [
+        "a_00158",
+        "a_00162",
+        "a_00166",
+        "a_00167"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "escalate_ticket",
+        "request_customer_info",
+        "resolve_ticket"
+      ],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00158",
+        "a_00162",
+        "a_00166",
+        "a_00167"
+      ],
+      "task_id": "t_00072"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "escalate_ticket",
+        "resolve_ticket"
+      ],
+      "composed_evidence": [
+        "a_00182",
+        "a_00186",
+        "a_00190",
+        "a_00191"
+      ],
+      "composed_support": {
+        "request_customer_info": [
+          "a_00190"
+        ]
+      },
+      "composed_valid_actions": [
+        "request_customer_info"
+      ],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "escalate_ticket",
+        "resolve_ticket"
+      ],
+      "gold_support": {
+        "request_customer_info": [
+          "a_00190"
+        ]
+      },
+      "gold_valid_actions": [
+        "request_customer_info"
+      ],
+      "lgr_evidence": [
+        "a_00182",
+        "a_00186",
+        "a_00190",
+        "a_00191"
+      ],
+      "task_id": "t_00073"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "escalate_ticket",
+        "resolve_ticket"
+      ],
+      "composed_evidence": [
+        "a_00302",
+        "a_00306",
+        "a_00310",
+        "a_00311"
+      ],
+      "composed_support": {
+        "request_customer_info": [
+          "a_00310"
+        ]
+      },
+      "composed_valid_actions": [
+        "request_customer_info"
+      ],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "escalate_ticket",
+        "resolve_ticket"
+      ],
+      "gold_support": {
+        "request_customer_info": [
+          "a_00310"
+        ]
+      },
+      "gold_valid_actions": [
+        "request_customer_info"
+      ],
+      "lgr_evidence": [
+        "a_00302",
+        "a_00306",
+        "a_00310",
+        "a_00311"
+      ],
+      "task_id": "t_00078"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "escalate_ticket",
+        "request_customer_info"
+      ],
+      "composed_evidence": [
+        "a_00326",
+        "a_00330",
+        "a_00334",
+        "a_00335"
+      ],
+      "composed_support": {
+        "resolve_ticket": [
+          "a_00334"
+        ]
+      },
+      "composed_valid_actions": [
+        "resolve_ticket"
+      ],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "escalate_ticket",
+        "request_customer_info"
+      ],
+      "gold_support": {
+        "resolve_ticket": [
+          "a_00334"
+        ]
+      },
+      "gold_valid_actions": [
+        "resolve_ticket"
+      ],
+      "lgr_evidence": [
+        "a_00326",
+        "a_00330",
+        "a_00334",
+        "a_00335"
+      ],
+      "task_id": "t_00079"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "escalate_ticket",
+        "request_customer_info",
+        "resolve_ticket"
+      ],
+      "composed_evidence": [
+        "a_00350",
+        "a_00354",
+        "a_00358",
+        "a_00359"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "escalate_ticket",
+        "request_customer_info",
+        "resolve_ticket"
+      ],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00350",
+        "a_00354",
+        "a_00358",
+        "a_00359"
+      ],
+      "task_id": "t_00080"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "deny_refund",
+        "issue_refund",
+        "request_manager_approval"
+      ],
+      "composed_evidence": [
+        "a_00160",
+        "a_00165"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "deny_refund",
+        "issue_refund",
+        "request_manager_approval"
+      ],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00160",
+        "a_00165"
+      ],
+      "task_id": "t_00082"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "deny_refund",
+        "request_manager_approval"
+      ],
+      "composed_evidence": [
+        "a_00184",
+        "a_00189"
+      ],
+      "composed_support": {
+        "issue_refund": [
+          "a_00184",
+          "a_00189"
+        ]
+      },
+      "composed_valid_actions": [
+        "issue_refund"
+      ],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "deny_refund",
+        "request_manager_approval"
+      ],
+      "gold_support": {
+        "issue_refund": [
+          "a_00184",
+          "a_00189"
+        ]
+      },
+      "gold_valid_actions": [
+        "issue_refund"
+      ],
+      "lgr_evidence": [
+        "a_00184",
+        "a_00189"
+      ],
+      "task_id": "t_00083"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "deny_refund",
+        "request_manager_approval"
+      ],
+      "composed_evidence": [
+        "a_00256",
+        "a_00261",
+        "a_00523"
+      ],
+      "composed_support": {
+        "issue_refund": [
+          "a_00261",
+          "a_00523"
+        ]
+      },
+      "composed_valid_actions": [
+        "issue_refund"
+      ],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "deny_refund",
+        "request_manager_approval"
+      ],
+      "gold_support": {
+        "issue_refund": [
+          "a_00261",
+          "a_00523"
+        ]
+      },
+      "gold_valid_actions": [
+        "issue_refund"
+      ],
+      "lgr_evidence": [
+        "a_00256",
+        "a_00261",
+        "a_00523"
+      ],
+      "task_id": "t_00086"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "deny_refund",
+        "issue_refund",
+        "request_manager_approval"
+      ],
+      "composed_evidence": [
+        "a_00280",
+        "a_00285"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "deny_refund",
+        "issue_refund",
+        "request_manager_approval"
+      ],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00280",
+        "a_00285"
+      ],
+      "task_id": "t_00087"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "deny_refund",
+        "issue_refund",
+        "request_manager_approval"
+      ],
+      "composed_evidence": [
+        "a_00328",
+        "a_00333"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "deny_refund",
+        "issue_refund",
+        "request_manager_approval"
+      ],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00328",
+        "a_00333"
+      ],
+      "task_id": "t_00089"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "deny_refund",
+        "issue_refund",
+        "request_manager_approval"
+      ],
+      "composed_evidence": [
+        "a_00352",
+        "a_00357"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "deny_refund",
+        "issue_refund",
+        "request_manager_approval"
+      ],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00352",
+        "a_00357"
+      ],
+      "task_id": "t_00090"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "deny_refund",
+        "issue_refund",
+        "request_manager_approval"
+      ],
+      "composed_evidence": [
+        "a_00376",
+        "a_00381"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "deny_refund",
+        "issue_refund",
+        "request_manager_approval"
+      ],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00376",
+        "a_00381"
+      ],
+      "task_id": "t_00091"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "deny_refund",
+        "request_manager_approval"
+      ],
+      "composed_evidence": [
+        "a_00400",
+        "a_00405"
+      ],
+      "composed_support": {
+        "issue_refund": [
+          "a_00400",
+          "a_00405"
+        ]
+      },
+      "composed_valid_actions": [
+        "issue_refund"
+      ],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "deny_refund",
+        "request_manager_approval"
+      ],
+      "gold_support": {
+        "issue_refund": [
+          "a_00400",
+          "a_00405"
+        ]
+      },
+      "gold_valid_actions": [
+        "issue_refund"
+      ],
+      "lgr_evidence": [
+        "a_00400",
+        "a_00405"
+      ],
+      "task_id": "t_00092"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "issue_refund"
+      ],
+      "composed_evidence": [
+        "a_00004",
+        "a_00009",
+        "a_00481"
+      ],
+      "composed_support": {
+        "deny_refund": [
+          "a_00009"
+        ],
+        "request_manager_approval": [
+          "a_00009"
+        ]
+      },
+      "composed_valid_actions": [
+        "deny_refund",
+        "request_manager_approval"
+      ],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "issue_refund"
+      ],
+      "gold_support": {
+        "deny_refund": [
+          "a_00009"
+        ],
+        "request_manager_approval": [
+          "a_00009"
+        ]
+      },
+      "gold_valid_actions": [
+        "deny_refund",
+        "request_manager_approval"
+      ],
+      "lgr_evidence": [
+        "a_00004",
+        "a_00009",
+        "a_00481"
+      ],
+      "task_id": "t_00093"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "issue_refund",
+        "request_manager_approval"
+      ],
+      "composed_evidence": [
+        "a_00028",
+        "a_00033"
+      ],
+      "composed_support": {
+        "reject_refund": [
+          "a_00033"
+        ]
+      },
+      "composed_valid_actions": [
+        "reject_refund"
+      ],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "issue_refund",
+        "request_manager_approval"
+      ],
+      "gold_support": {
+        "reject_refund": [
+          "a_00033"
+        ]
+      },
+      "gold_valid_actions": [
+        "reject_refund"
+      ],
+      "lgr_evidence": [
+        "a_00028",
+        "a_00033"
+      ],
+      "task_id": "t_00094"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "issue_refund"
+      ],
+      "composed_evidence": [
+        "a_00052",
+        "a_00489"
+      ],
+      "composed_support": {
+        "deny_refund": [
+          "a_00489"
+        ],
+        "request_manager_approval": [
+          "a_00489"
+        ]
+      },
+      "composed_valid_actions": [
+        "deny_refund",
+        "request_manager_approval"
+      ],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "issue_refund"
+      ],
+      "gold_support": {
+        "deny_refund": [
+          "a_00489"
+        ],
+        "request_manager_approval": [
+          "a_00489"
+        ]
+      },
+      "gold_valid_actions": [
+        "deny_refund",
+        "request_manager_approval"
+      ],
+      "lgr_evidence": [
+        "a_00052",
+        "a_00489"
+      ],
+      "task_id": "t_00095"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "issue_refund",
+        "request_manager_approval"
+      ],
+      "composed_evidence": [
+        "a_00100",
+        "a_00105"
+      ],
+      "composed_support": {
+        "reject_refund": [
+          "a_00105"
+        ]
+      },
+      "composed_valid_actions": [
+        "reject_refund"
+      ],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "issue_refund",
+        "request_manager_approval"
+      ],
+      "gold_support": {
+        "reject_refund": [
+          "a_00105"
+        ]
+      },
+      "gold_valid_actions": [
+        "reject_refund"
+      ],
+      "lgr_evidence": [
+        "a_00100",
+        "a_00105"
+      ],
+      "task_id": "t_00097"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [
+        "issue_refund"
+      ],
+      "composed_evidence": [
+        "a_00148",
+        "a_00153"
+      ],
+      "composed_support": {
+        "deny_refund": [
+          "a_00153"
+        ],
+        "request_manager_approval": [
+          "a_00153"
+        ]
+      },
+      "composed_valid_actions": [
+        "deny_refund",
+        "request_manager_approval"
+      ],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [
+        "issue_refund"
+      ],
+      "gold_support": {
+        "deny_refund": [
+          "a_00153"
+        ],
+        "request_manager_approval": [
+          "a_00153"
+        ]
+      },
+      "gold_valid_actions": [
+        "deny_refund",
+        "request_manager_approval"
+      ],
+      "lgr_evidence": [
+        "a_00148",
+        "a_00153"
+      ],
+      "task_id": "t_00099"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00398",
+        "a_00400",
+        "a_00405",
+        "a_00406"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00398",
+        "a_00400",
+        "a_00405",
+        "a_00406"
+      ],
+      "task_id": "t_00102"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00002",
+        "a_00004",
+        "a_00009",
+        "a_00010",
+        "a_00481"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00002",
+        "a_00004",
+        "a_00009",
+        "a_00010",
+        "a_00481"
+      ],
+      "task_id": "t_00103"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00026",
+        "a_00028",
+        "a_00033",
+        "a_00034"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00026",
+        "a_00028",
+        "a_00033",
+        "a_00034"
+      ],
+      "task_id": "t_00104"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00050",
+        "a_00052",
+        "a_00058",
+        "a_00489"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00050",
+        "a_00052",
+        "a_00058",
+        "a_00489"
+      ],
+      "task_id": "t_00105"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00074",
+        "a_00076",
+        "a_00081",
+        "a_00082"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00074",
+        "a_00076",
+        "a_00081",
+        "a_00082"
+      ],
+      "task_id": "t_00106"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00100",
+        "a_00105",
+        "a_00106",
+        "a_00497",
+        "a_00567"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00100",
+        "a_00105",
+        "a_00106",
+        "a_00497",
+        "a_00567"
+      ],
+      "task_id": "t_00107"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00146",
+        "a_00148",
+        "a_00153",
+        "a_00154"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00146",
+        "a_00148",
+        "a_00153",
+        "a_00154"
+      ],
+      "task_id": "t_00109"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00170",
+        "a_00172",
+        "a_00177",
+        "a_00178"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00170",
+        "a_00172",
+        "a_00177",
+        "a_00178"
+      ],
+      "task_id": "t_00110"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00194",
+        "a_00196",
+        "a_00201",
+        "a_00202"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00194",
+        "a_00196",
+        "a_00201",
+        "a_00202"
+      ],
+      "task_id": "t_00111"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00218",
+        "a_00220",
+        "a_00225",
+        "a_00226"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00218",
+        "a_00220",
+        "a_00225",
+        "a_00226"
+      ],
+      "task_id": "t_00112"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00242",
+        "a_00244",
+        "a_00249",
+        "a_00250"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00242",
+        "a_00244",
+        "a_00249",
+        "a_00250"
+      ],
+      "task_id": "t_00113"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00362",
+        "a_00364",
+        "a_00369",
+        "a_00370"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00362",
+        "a_00364",
+        "a_00369",
+        "a_00370"
+      ],
+      "task_id": "t_00118"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00386",
+        "a_00388",
+        "a_00393",
+        "a_00394"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00386",
+        "a_00388",
+        "a_00393",
+        "a_00394"
+      ],
+      "task_id": "t_00119"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [
+        "a_00410",
+        "a_00412",
+        "a_00417",
+        "a_00418"
+      ],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [
+        "a_00410",
+        "a_00412",
+        "a_00417",
+        "a_00418"
+      ],
+      "task_id": "t_00120"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [],
+      "task_id": "t_00122"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [],
+      "task_id": "t_00123"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [],
+      "task_id": "t_00125"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [],
+      "task_id": "t_00126"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [],
+      "task_id": "t_00128"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [],
+      "task_id": "t_00129"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [],
+      "task_id": "t_00130"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [],
+      "task_id": "t_00131"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [],
+      "task_id": "t_00132"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [],
+      "task_id": "t_00133"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [],
+      "task_id": "t_00134"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [],
+      "task_id": "t_00135"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [],
+      "task_id": "t_00136"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [],
+      "task_id": "t_00137"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [],
+      "task_id": "t_00138"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [],
+      "task_id": "t_00139"
+    },
+    {
+      "action_equal_to_gold": true,
+      "composed_blocked_actions": [],
+      "composed_evidence": [],
+      "composed_support": {},
+      "composed_valid_actions": [],
+      "evidence_equal_to_lgr": true,
+      "gold_blocked_actions": [],
+      "gold_support": {},
+      "gold_valid_actions": [],
+      "lgr_evidence": [],
+      "task_id": "t_00140"
+    }
+  ],
+  "test_tasks": 100
+}

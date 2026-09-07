@@ -1,0 +1,52 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "answer": {
+      "type": "string"
+    },
+    "blocked_action_ids": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "confidence": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "method": {
+      "type": "string"
+    },
+    "rationale": {
+      "type": "string"
+    },
+    "selected_action": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "support_assertion_ids": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "task_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "task_id",
+    "method",
+    "answer",
+    "selected_action",
+    "support_assertion_ids",
+    "blocked_action_ids",
+    "confidence",
+    "rationale"
+  ],
+  "type": "object"
+}

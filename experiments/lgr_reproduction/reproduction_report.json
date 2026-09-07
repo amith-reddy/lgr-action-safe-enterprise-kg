@@ -1,0 +1,117 @@
+{
+  "commands": [
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/validate_evomem_enterprise.py",
+        "--data-root",
+        "<tmp>/evomem"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/verify_gold_labels.py",
+        "--data-root",
+        "<tmp>/evomem"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/verify_evidence_labels.py",
+        "--data-root",
+        "<tmp>/evomem"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/run_phase3_experiments.py",
+        "--data-root",
+        "<tmp>/evomem",
+        "--output-dir",
+        "experiments/lgr_reproduction"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/report_evidence_regimes.py",
+        "--data-root",
+        "<tmp>/evomem",
+        "--output-dir",
+        "experiments/lgr_reproduction"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/validate_phase3_results.py",
+        "--data-root",
+        "<tmp>/evomem",
+        "--output-dir",
+        "experiments/lgr_reproduction"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/run_decisive_strata.py",
+        "--data-root",
+        "<tmp>/evomem",
+        "--output-dir",
+        "experiments/lgr_reproduction"
+      ],
+      "returncode": 0
+    }
+  ],
+  "frozen_input_sha256": {
+    "config/action_registry.json": "f8d655746117457617381f0081baf126205095d3f501906675b80b56c8edc59f",
+    "config/benchmark_config.yaml": "9420f522467954c34de3e04b5d48ffbcfc1f2b5be40c0f3cb648a0262ed5dfb1",
+    "config/conflict_semantics.json": "daa105fc35fe2875cf90cf6b36d5351c9b1a4357aa620157d870ddf3acb06fc6",
+    "config/seeds.yaml": "71678b159003d5ee96b2a90aadd2ad187b091befb7b5168d1ba6c472a550c923",
+    "config/source_catalog.json": "769a27e84b42555235d145fdba3a105bf9f22459e31c9332f8bd8b254b664fdd",
+    "config/trust_precedence.json": "80114b5c56a15eea5e736f921b3c3d2d1269fd5449ad4bf6a0c9caa03fa66452",
+    "generated/assertion_events.jsonl": "2726f463b98d8dce3627af64fbeddc850605df9cee1a738d82c78780fc91e6f2",
+    "generated/canonical_state_timeline.jsonl": "c3cd7ea0c7225ed3af475ce4ede557aa1ef5ed360e7ec6e86d14e8d31c373e05",
+    "generated/contradiction_groups.jsonl": "9cb170999b0f044a3156588e4549d9ed23863b6ad19aa57c9e71d8a22138f3ca",
+    "generated/entities.jsonl": "3970e94ac521e075e6c5eeda8db83f42c844d1af2faed4994b6c1ae39091c389",
+    "generated/gold_dev.jsonl": "4822f1c97851d4f7239355cfda594124cd03e45d00d49ad63648e9a2de97dafd",
+    "generated/gold_smoke.jsonl": "61a97e8810f53d3a2316bf99907c186735283e80a2c0d2f036426a59d658d913",
+    "generated/gold_test.jsonl": "a61e04df0db4379c244e77cbc288d5f0949e51406bd8cbad4168ad26e012887d",
+    "generated/provenance_activities.jsonl": "f48bf5eae77e8248b9cb5119b38f2ac352473588ec7ea00c9722c85636b3a5d6",
+    "generated/state_changes.jsonl": "c3cd7ea0c7225ed3af475ce4ede557aa1ef5ed360e7ec6e86d14e8d31c373e05",
+    "generated/tasks_dev.jsonl": "42f1a1c659841cf0b6fcdc59461d56562d25377a53ba17247838fee6202733e5",
+    "generated/tasks_smoke.jsonl": "525a3685df439d3ebbfbf0cdacdd202c2358edcad5926ed1cff07f86535fbe7b",
+    "generated/tasks_test.jsonl": "8aa5b73a006a97433cca80c15b6a25cb21a6fcd62a8d85ba01b68fb6e94821ce",
+    "ontology/ontology_mappings.json": "27739f8b4a81703aaa04625cc694f6f0452b4fe261af840aaee50ab9459649e1",
+    "ontology/ontology_v1.json": "5886b1dd217afad4491db0bfc3631214ec119ed927516ba540173a6e98e18cb9",
+    "ontology/ontology_v2.json": "480456f52403f187c72f6eee987717aa764391addb03d328ce243d6c55a3a305",
+    "ontology/ontology_v3.json": "50358419b1be081e4e681fea9f2972bdad5629291c17c5d103f2ffdae023c623",
+    "policy/refund_policy_v1.json": "1d87b87d33d365e3f770b44ec6b558991a9e3422de9e04f75c3e566ad05b0fdc",
+    "policy/refund_policy_v2.json": "9d637b05a4307b1d85d4ea49bbfbdd491c0ad4180b9adf113b29b35c11cbc708",
+    "policy/sla_policy_v1.json": "9479830a2a2aee3fe205c455f865b7865cd7dca89cf9a66d71bc8bc1d9be1e39",
+    "policy/sla_policy_v2.json": "03dedab44361473a59adeec4b7030321ea55da6ba3d7e8216890194066f62572",
+    "prompts/llm_action_eval_prompt.txt": "c56bb9a40ff5780ea3c97cd85d99532770a3ec66a39de04a264ae6de2f9a20aa",
+    "schema/assertion_event.schema.json": "3bb65098c84f805917cf69939cbd9a2e075b3bcdc8f36ac7eec9353cf9458b2f",
+    "schema/context_packet.schema.json": "47f2d15c905182b92596f782d474c21e801804f9290cf36444e87363b2da49f2",
+    "schema/entities.schema.json": "b8532f800c480c14d4c16be2c460e4a8f143b7ae7e3162b56803b72da1132502",
+    "schema/gold_label.schema.json": "2da770e55b901f63f9cd6fb5699703e8d62d35ebe2f33a115a25acfeec74e22c",
+    "schema/llm_output.schema.json": "bdcb0dda5e37e3e0683fa970ca72ad9c31dcd94afcdb8600d7f89fe1e6b5c402",
+    "schema/task.schema.json": "250f6ce00f058dda76a319f75f9bc9cf394ac4db7d2cfdfefc1c7bb33e21ec43",
+    "workflows/refund_workflow.json": "23da369b73d0e09c324819ffd2d352c5364dd9f66bca1a60d3edbf7f0ec0599a",
+    "workflows/support_escalation_workflow.json": "390aecb0c965b43083be1cdaa0a7d3b13409f62734f31ee629ca56302a7ecb77"
+  },
+  "output_dir": "experiments/lgr_reproduction",
+  "python": "3.9.6 (default, Apr 30 2025, 02:07:17) \n[Clang 17.0.0 (clang-1700.0.13.5)]",
+  "source_data_root": "data/evomem_enterprise",
+  "source_inputs_unchanged": true,
+  "status": "pass"
+}

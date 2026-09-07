@@ -1,0 +1,14 @@
+{
+  "additionalProperties": true,
+  "required": [
+    "task_id",
+    "answer_class",
+    "eligible_assertion_ids",
+    "expected_suppression",
+    "valid_actions",
+    "blocked_actions",
+    "acceptable_llm_outputs",
+    "stage_labels"
+  ],
+  "type": "object"
+}

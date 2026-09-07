@@ -1,0 +1,10 @@
+{
+  "relations": [
+    "entitlement_profile",
+    "sla_profile",
+    "subscription_status",
+    "owner",
+    "workflow_state"
+  ],
+  "version": "ov_2"
+}

@@ -1,0 +1,77 @@
+{
+  "action_relevant_relations": {
+    "account_owner": [
+      "crm",
+      "billing",
+      "support_note",
+      "generated_summary"
+    ],
+    "contractual_entitlement": [
+      "billing",
+      "crm",
+      "support_note",
+      "generated_summary"
+    ],
+    "product_entitlement": [
+      "billing",
+      "crm",
+      "support_note",
+      "generated_summary"
+    ],
+    "refund_amount": [
+      "billing",
+      "support_note",
+      "generated_summary"
+    ],
+    "refund_rule": [
+      "policy_registry",
+      "support_note",
+      "generated_summary"
+    ],
+    "sla_profile": [
+      "billing",
+      "crm",
+      "support_note",
+      "generated_summary"
+    ],
+    "sla_rule": [
+      "policy_registry",
+      "support_note",
+      "generated_summary"
+    ],
+    "subscription_status": [
+      "billing",
+      "crm",
+      "support_note",
+      "generated_summary"
+    ],
+    "support_entitlement": [
+      "billing",
+      "crm",
+      "support_note",
+      "generated_summary"
+    ],
+    "support_plan": [
+      "billing",
+      "crm",
+      "support_note",
+      "generated_summary"
+    ],
+    "ticket_severity": [
+      "workflow_log",
+      "support_note",
+      "generated_summary"
+    ],
+    "ticket_state": [
+      "workflow_log",
+      "support_note",
+      "generated_summary"
+    ],
+    "workflow_state": [
+      "workflow_log",
+      "support_note",
+      "generated_summary"
+    ]
+  },
+  "version": "source-catalog-v1"
+}

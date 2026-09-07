@@ -1,0 +1,30 @@
+{
+  "rules": [
+    {
+      "action": "escalate_ticket",
+      "guard": {
+        "and": [
+          {
+            "equals": [
+              "ticket_severity",
+              "critical"
+            ]
+          },
+          {
+            "lte_hours_open": 2
+          },
+          {
+            "equals": [
+              "support_entitlement",
+              "EnterprisePlus"
+            ]
+          }
+        ]
+      },
+      "permit_or_deny": "permit",
+      "policy_family": "sla",
+      "policy_version": "sla_policy_v1",
+      "priority": 10
+    }
+  ]
+}

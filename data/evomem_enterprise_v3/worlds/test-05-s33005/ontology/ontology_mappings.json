@@ -1,0 +1,60 @@
+{
+  "mappings": [
+    {
+      "from_ov": "ov_1",
+      "from_relation": "support_plan",
+      "map_type": "rewrite",
+      "to_ov": "ov_2",
+      "to_relation": "entitlement_profile"
+    },
+    {
+      "from_ov": "ov_1",
+      "from_relation": "support_plan",
+      "map_type": "split",
+      "to_ov": "ov_2",
+      "to_relation": "sla_profile"
+    },
+    {
+      "from_ov": "ov_1",
+      "from_relation": "refund_status",
+      "map_type": "rewrite",
+      "to_ov": "ov_2",
+      "to_relation": "workflow_state"
+    },
+    {
+      "from_ov": "ov_2",
+      "from_relation": "entitlement_profile",
+      "map_type": "split",
+      "to_ov": "ov_3",
+      "to_relation": "product_entitlement"
+    },
+    {
+      "from_ov": "ov_2",
+      "from_relation": "entitlement_profile",
+      "map_type": "split",
+      "to_ov": "ov_3",
+      "to_relation": "support_entitlement"
+    },
+    {
+      "from_ov": "ov_2",
+      "from_relation": "entitlement_profile",
+      "map_type": "split",
+      "to_ov": "ov_3",
+      "to_relation": "contractual_entitlement"
+    },
+    {
+      "from_ov": "ov_2",
+      "from_relation": "sla_profile",
+      "map_type": "identity",
+      "to_ov": "ov_3",
+      "to_relation": "sla_profile"
+    },
+    {
+      "from_ov": "ov_2",
+      "from_relation": "workflow_state",
+      "map_type": "identity",
+      "to_ov": "ov_3",
+      "to_relation": "workflow_state"
+    }
+  ]
+}

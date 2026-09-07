@@ -1,0 +1,69 @@
+{
+  "rules": [
+    {
+      "action": "issue_refund",
+      "guard": {
+        "and": [
+          {
+            "equals": [
+              "workflow_state",
+              "approved"
+            ]
+          },
+          {
+            "not_equals": [
+              "subscription_status",
+              "suspended"
+            ]
+          }
+        ]
+      },
+      "permit_or_deny": "permit",
+      "policy_family": "refund",
+      "policy_version": "refund_policy_v2",
+      "priority": 10
+    },
+    {
+      "action": "request_manager_approval",
+      "guard": {
+        "equals": [
+          "workflow_state",
+          "eligibility_checked"
+        ]
+      },
+      "permit_or_deny": "permit",
+      "policy_family": "refund",
+      "policy_version": "refund_policy_v2",
+      "priority": 8
+    },
+    {
+      "action": "deny_refund",
+      "guard": {
+        "in": [
+          "workflow_state",
+          [
+            "eligibility_checked",
+            "manager_review"
+          ]
+        ]
+      },
+      "permit_or_deny": "permit",
+      "policy_family": "refund",
+      "policy_version": "refund_policy_v2",
+      "priority": 7
+    },
+    {
+      "action": "reject_refund",
+      "guard": {
+        "equals": [
+          "workflow_state",
+          "manager_review"
+        ]
+      },
+      "permit_or_deny": "permit",
+      "policy_family": "refund",
+      "policy_version": "refund_policy_v2",
+      "priority": 7
+    }
+  ]
+}

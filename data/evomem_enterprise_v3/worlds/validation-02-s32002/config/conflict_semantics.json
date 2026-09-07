@@ -1,0 +1,75 @@
+{
+  "relations": {
+    "account_owner": {
+      "cardinality": "single_value",
+      "incompatibility": "distinct_values",
+      "key": "subject"
+    },
+    "contractual_entitlement": {
+      "cardinality": "single_value",
+      "incompatibility": "distinct_values",
+      "key": "subject"
+    },
+    "product_entitlement": {
+      "cardinality": "single_value",
+      "incompatibility": "distinct_values",
+      "key": "subject"
+    },
+    "refund_amount": {
+      "cardinality": "single_value",
+      "incompatibility": "distinct_values",
+      "key": "workflow_or_subject"
+    },
+    "refund_rule": {
+      "cardinality": "single_value",
+      "incompatibility": "distinct_values",
+      "key": "workflow_or_subject"
+    },
+    "sla_profile": {
+      "cardinality": "single_value",
+      "incompatibility": "distinct_values",
+      "key": "subject"
+    },
+    "sla_rule": {
+      "cardinality": "single_value",
+      "incompatibility": "distinct_values",
+      "key": "workflow_or_subject"
+    },
+    "subscription_status": {
+      "cardinality": "single_value",
+      "incompatibility": "distinct_values",
+      "key": "subject"
+    },
+    "support_contact": {
+      "cardinality": "multi_value",
+      "incompatibility": "none",
+      "key": "subject"
+    },
+    "support_entitlement": {
+      "cardinality": "single_value",
+      "incompatibility": "distinct_values",
+      "key": "subject"
+    },
+    "support_plan": {
+      "cardinality": "single_value",
+      "incompatibility": "distinct_values",
+      "key": "subject"
+    },
+    "ticket_severity": {
+      "cardinality": "single_value",
+      "incompatibility": "distinct_values",
+      "key": "workflow_or_subject"
+    },
+    "ticket_state": {
+      "cardinality": "single_value",
+      "incompatibility": "distinct_values",
+      "key": "workflow_or_subject"
+    },
+    "workflow_state": {
+      "cardinality": "single_value",
+      "incompatibility": "distinct_values",
+      "key": "workflow_or_subject"
+    }
+  },
+  "version": "conflict-semantics-v1"
+}

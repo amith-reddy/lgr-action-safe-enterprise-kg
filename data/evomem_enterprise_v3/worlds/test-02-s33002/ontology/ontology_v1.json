@@ -1,0 +1,10 @@
+{
+  "relations": [
+    "support_plan",
+    "subscription_status",
+    "owner",
+    "severity",
+    "refund_status"
+  ],
+  "version": "ov_1"
+}

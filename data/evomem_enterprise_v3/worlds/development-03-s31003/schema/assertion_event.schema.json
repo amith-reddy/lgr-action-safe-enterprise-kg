@@ -1,0 +1,20 @@
+{
+  "additionalProperties": true,
+  "required": [
+    "assertion_id",
+    "subject",
+    "predicate",
+    "object",
+    "assertion_type",
+    "entity_scope",
+    "relation_scope",
+    "event_time",
+    "record_time",
+    "valid_from",
+    "ontology_version",
+    "policy_version",
+    "source",
+    "lifecycle_state"
+  ],
+  "type": "object"
+}

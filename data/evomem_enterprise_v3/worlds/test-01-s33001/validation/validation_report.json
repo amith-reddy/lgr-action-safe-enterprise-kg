@@ -1,0 +1,48 @@
+{
+  "assertion_role_counts": {
+    "contradiction_loser": 60,
+    "contradiction_winner": 60,
+    "current": 350,
+    "missing_provenance": 11,
+    "policy": 60,
+    "stale": 70
+  },
+  "counts": {
+    "assertion_events": 611,
+    "contradiction_groups": 60,
+    "entities": 601,
+    "ontology_versions": 3,
+    "policy_version_files": 4,
+    "state_changes": 215,
+    "tasks_dev": 30,
+    "tasks_smoke": 10,
+    "tasks_test": 100,
+    "tasks_total": 140,
+    "workflow_types": 2
+  },
+  "errors": [],
+  "state_change_counts": {
+    "Account merge": 8,
+    "Account owner change": 35,
+    "Account split": 7,
+    "Entitlement grant/revoke/change": 25,
+    "Household/account relationship change": 10,
+    "Ontology migration event": 5,
+    "Refund policy change": 10,
+    "Refund workflow transition": 20,
+    "SLA policy change": 10,
+    "Subscription suspension/reactivation": 35,
+    "Subscription upgrade/downgrade": 35,
+    "Ticket escalation transition": 15
+  },
+  "status": "pass",
+  "task_type_counts": {
+    "audit_valid_historical_explanation": 20,
+    "contradiction_handling": 20,
+    "current_factual_recall": 20,
+    "policy_valid_refund_action": 20,
+    "relationship_aware_retrieval": 20,
+    "sla_valid_escalation_action": 20,
+    "workflow_state_next_action": 20
+  }
+}

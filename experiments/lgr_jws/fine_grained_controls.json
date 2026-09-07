@@ -1,0 +1,79 @@
+{
+  "controls_tested": 7,
+  "failures": [],
+  "population_claim": "None; these are constructed decisive cases.",
+  "purpose": "Targeted isolation of controls formerly coupled by broad ablation flags.",
+  "results": [
+    {
+      "control": "record visibility",
+      "disabled_reasons": [],
+      "expected_sole_reason": "record_not_visible",
+      "flag": "use_record_visibility",
+      "full_reasons": [
+        "record_not_visible"
+      ],
+      "status": "pass"
+    },
+    {
+      "control": "valid-time interval",
+      "disabled_reasons": [],
+      "expected_sole_reason": "time_invalid",
+      "flag": "use_validity_interval",
+      "full_reasons": [
+        "time_invalid"
+      ],
+      "status": "pass"
+    },
+    {
+      "control": "provenance activity",
+      "disabled_reasons": [],
+      "expected_sole_reason": "provenance_missing",
+      "flag": "use_provenance_activity",
+      "full_reasons": [
+        "provenance_missing"
+      ],
+      "status": "pass"
+    },
+    {
+      "control": "source eligibility",
+      "disabled_reasons": [],
+      "expected_sole_reason": "source_disallowed",
+      "flag": "use_source_eligibility",
+      "full_reasons": [
+        "source_disallowed"
+      ],
+      "status": "pass"
+    },
+    {
+      "control": "workflow-instance scope",
+      "disabled_reasons": [],
+      "expected_sole_reason": "workflow_instance_mismatch",
+      "flag": "use_workflow_instance_scope",
+      "full_reasons": [
+        "workflow_instance_mismatch"
+      ],
+      "status": "pass"
+    },
+    {
+      "control": "relation-specific trust precedence",
+      "disabled_winners": [
+        "low_authority_new"
+      ],
+      "flag": "use_conflict_trust",
+      "full_winners": [
+        "high_authority_old"
+      ],
+      "status": "pass"
+    },
+    {
+      "control": "action-target binding",
+      "disabled_valid_actions": [
+        "issue_refund"
+      ],
+      "flag": "use_action_target_binding",
+      "full_valid_actions": [],
+      "status": "pass"
+    }
+  ],
+  "status": "pass"
+}

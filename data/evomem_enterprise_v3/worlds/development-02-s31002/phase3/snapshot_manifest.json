@@ -1,0 +1,19 @@
+{
+  "append_log_checkpoint": 611,
+  "file_digests": {
+    "config/action_registry.json": "4ad13f589bf54618936336bbc0b99fd5e296bac7851dff055df8602738ebbb72",
+    "config/conflict_semantics.json": "84e42ccf0850839c020eb78f147493679e54ce48a01e09897d2a811641d2e048",
+    "config/source_catalog.json": "4314512421c8622d10b96fa77bd62933d976b48d82510220f75bf4df2d59bab6",
+    "config/trust_precedence.json": "1a81f136eab184bc0e8deed337dec09455e7239949d39e0a0db5f7e234bc7b93",
+    "generated/assertion_events.jsonl": "143e982a2c138ff5bb7bd5140a96cdd7df6b32011b9acbf7c022b41729165630",
+    "generated/provenance_activities.jsonl": "52fbefb48c164c713493393faa92a1c17d74295f461645d9bf56ad30e07e02d8",
+    "ontology/ontology_mappings.json": "738b4cd9b2af17765cccb1f1b9503f46bfc04fe7ba9a9d13a701c819b94b0f7b",
+    "policy/refund_policy_v1.json": "d119e8f42b680f95cb4f5b858926b1a4637d8e1ff7170cd319af77a1ea68be0b",
+    "policy/refund_policy_v2.json": "2df313a4fb5e1770df191f0c80789de4cd93dccc3b4a383558e6355e143358a8",
+    "policy/sla_policy_v1.json": "33e74596fdfd5af128b3cfeae3126be6ed14649dcb6c6e0db92c8a7502153a1c",
+    "policy/sla_policy_v2.json": "44af9668bf6b8b2aaa320be31a61c27a965cee1a146b169ac85eaca959f67849",
+    "workflows/refund_workflow.json": "17a66db0a4fb8cfd672a9ab5c78d7495051d3b50866e1a448abe0115ff3a8fec",
+    "workflows/support_escalation_workflow.json": "6da35335a55845446f0d5540ed8e13e12a79d80a80e909a9c1cf6044dddd20c8"
+  },
+  "snapshot_id": "sha256:c1a6955a0c744cffa91df7f24ffa540da11a01e333e618cd1132b33555c8b3c1"
+}

@@ -1,0 +1,27 @@
+{
+  "benchmark": "EvoMem-Enterprise",
+  "closed_world": true,
+  "date_range": {
+    "decision": "2026-06-01T10:00:00Z",
+    "start": "2026-04-01T09:00:00Z"
+  },
+  "minimums": {
+    "assertion_events": 500,
+    "contradiction_cases": 50,
+    "entity_nodes": 100,
+    "evaluation_tasks": 100,
+    "ontology_versions": 3,
+    "policy_families": 2,
+    "state_change_events": 100,
+    "workflow_types": 2
+  },
+  "seeds": {
+    "seed_contradictions": 1459402775640769450,
+    "seed_entities": 9662289627943151454,
+    "seed_events": 11993388527852254471,
+    "seed_splits": 14069287196651078652,
+    "seed_tasks": 15935940057321294506
+  },
+  "version": "evomem-enterprise-v3.0.0-rc1",
+  "world_id": "test-02-s33002"
+}

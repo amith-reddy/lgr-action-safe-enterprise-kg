@@ -1,0 +1,37 @@
+{
+  "action_exact_match_action_only": {
+    "best_baseline": "lexical_top_k_memory",
+    "bootstrap_samples": 1000,
+    "ci95_high": 0.0,
+    "ci95_low": 0.0,
+    "lgr_minus_best_baseline_mean": 0.0
+  },
+  "contradiction_loser_suppression_recall": {
+    "best_baseline": "temporal_kg_retrieval",
+    "bootstrap_samples": 1000,
+    "ci95_high": 0.10499999999999998,
+    "ci95_low": 0.025000000000000022,
+    "lgr_minus_best_baseline_mean": 0.06510500000000033
+  },
+  "eligible_f1": {
+    "best_baseline": "provenance_aware_kg_query",
+    "bootstrap_samples": 1000,
+    "ci95_high": 0.145945887445888,
+    "ci95_low": 0.019810966810966946,
+    "lgr_minus_best_baseline_mean": 0.08411735930735985
+  },
+  "llm_selected_action_valid_accuracy_action_only": {
+    "best_baseline": "lexical_top_k_memory",
+    "bootstrap_samples": 1000,
+    "ci95_high": 0.0,
+    "ci95_low": 0.0,
+    "lgr_minus_best_baseline_mean": 0.0
+  },
+  "stale_suppression_recall": {
+    "best_baseline": "ttl_only_memory",
+    "bootstrap_samples": 1000,
+    "ci95_high": 0.44499999999999995,
+    "ci95_low": 0.31999999999999995,
+    "lgr_minus_best_baseline_mean": 0.3812199999999999
+  }
+}

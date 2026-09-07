@@ -1,0 +1,15 @@
+{
+  "archive": "lgr_jws_artifact_rc1.tar.gz",
+  "archive_bytes": 20553666,
+  "archive_sha256": "27fc5d5fef983ee0d36d8e6c4ce8b567ac141c84c6bbb19025c3956771b770cd",
+  "frozen_release_reproduction_after_clean_extraction": {
+    "reported_status": "pass",
+    "returncode": 0,
+    "stderr_tail": ""
+  },
+  "license_status": "pending author selection; archive is not yet a public reuse release",
+  "manifest_entries": 1127,
+  "manifest_mismatches": [],
+  "manifest_verified_after_clean_extraction": true,
+  "status": "pass"
+}

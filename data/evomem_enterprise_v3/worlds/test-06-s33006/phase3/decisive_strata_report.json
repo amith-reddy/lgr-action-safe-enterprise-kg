@@ -1,0 +1,193 @@
+{
+  "decisive_counterfactual_strata": [
+    {
+      "ablated_exposures": 4,
+      "action_flips_expected": 1,
+      "action_flips_observed": 1,
+      "cases": [
+        {
+          "ablated_valid_actions": [],
+          "case_id": "lifecycle_takedown_0",
+          "exposed_ablated": true,
+          "exposed_full": false,
+          "full_valid_actions": [],
+          "sole_reason": [
+            "lifecycle_ineligible"
+          ]
+        },
+        {
+          "ablated_valid_actions": [],
+          "case_id": "lifecycle_takedown_1",
+          "exposed_ablated": true,
+          "exposed_full": false,
+          "full_valid_actions": [],
+          "sole_reason": [
+            "lifecycle_ineligible"
+          ]
+        },
+        {
+          "ablated_valid_actions": [],
+          "case_id": "lifecycle_takedown_2",
+          "exposed_ablated": true,
+          "exposed_full": false,
+          "full_valid_actions": [],
+          "sole_reason": [
+            "lifecycle_ineligible"
+          ]
+        },
+        {
+          "ablated_valid_actions": [
+            "issue_refund"
+          ],
+          "case_id": "lifecycle_action_flip",
+          "exposed_ablated": true,
+          "exposed_full": false,
+          "full_valid_actions": [],
+          "sole_reason": [
+            "lifecycle_ineligible"
+          ]
+        }
+      ],
+      "feature": "lifecycle_state",
+      "full_lgr_exposures": 0,
+      "tasks": 4
+    },
+    {
+      "ablated_exposures": 3,
+      "action_flips_expected": 1,
+      "action_flips_observed": 1,
+      "cases": [
+        {
+          "ablated_valid_actions": [],
+          "case_id": "supersession_lagging_close_0",
+          "exposed_ablated": true,
+          "exposed_full": false,
+          "full_valid_actions": [],
+          "sole_reason": [
+            "superseded"
+          ]
+        },
+        {
+          "ablated_valid_actions": [],
+          "case_id": "supersession_lagging_close_1",
+          "exposed_ablated": true,
+          "exposed_full": false,
+          "full_valid_actions": [],
+          "sole_reason": [
+            "superseded"
+          ]
+        },
+        {
+          "ablated_valid_actions": [
+            "issue_refund"
+          ],
+          "case_id": "supersession_action_flip",
+          "exposed_ablated": true,
+          "exposed_full": false,
+          "full_valid_actions": [],
+          "sole_reason": [
+            "superseded"
+          ]
+        }
+      ],
+      "feature": "supersession_links",
+      "full_lgr_exposures": 0,
+      "tasks": 3
+    },
+    {
+      "ablated_exposures": 3,
+      "action_flips_expected": 0,
+      "action_flips_observed": 0,
+      "cases": [
+        {
+          "ablated_valid_actions": [],
+          "case_id": "policy_regime_unclosed_validity_0",
+          "exposed_ablated": true,
+          "exposed_full": false,
+          "full_valid_actions": [],
+          "sole_reason": [
+            "policy_version_incompatible"
+          ]
+        },
+        {
+          "ablated_valid_actions": [],
+          "case_id": "policy_regime_unclosed_validity_1",
+          "exposed_ablated": true,
+          "exposed_full": false,
+          "full_valid_actions": [],
+          "sole_reason": [
+            "policy_version_incompatible"
+          ]
+        },
+        {
+          "ablated_valid_actions": [],
+          "case_id": "policy_regime_unclosed_validity_2",
+          "exposed_ablated": true,
+          "exposed_full": false,
+          "full_valid_actions": [],
+          "sole_reason": [
+            "policy_version_incompatible"
+          ]
+        }
+      ],
+      "feature": "policy_versioning",
+      "full_lgr_exposures": 0,
+      "tasks": 3
+    }
+  ],
+  "failures": [],
+  "frozen_split_masking": {
+    "eligibility_membership_changes_on_completed_evidence": {
+      "lifecycle_state": 0,
+      "ontology_versioning": 0,
+      "policy_versioning": 0,
+      "supersession_links": 0
+    },
+    "lifecycle_state": {
+      "co_occurring": 120,
+      "instances": 120,
+      "partners": {
+        "ontology_incompatible": 60,
+        "scope_relation_mismatch": 60,
+        "source_untrusted": 60,
+        "superseded": 120
+      },
+      "sole_reason": 0
+    },
+    "ontology_structural_shadowing": {
+      "corpus_pairs_with_ontology_incompatible": 6500,
+      "implication_holds": true,
+      "pairs_missing_scope_relation_mismatch": 0
+    },
+    "ontology_versioning": {
+      "co_occurring": 71,
+      "instances": 71,
+      "partners": {
+        "lifecycle_ineligible": 60,
+        "record_not_visible": 11,
+        "scope_relation_mismatch": 71,
+        "source_untrusted": 71,
+        "superseded": 60
+      },
+      "sole_reason": 0
+    },
+    "policy_versioning": {
+      "co_occurring": 0,
+      "instances": 0,
+      "partners": {},
+      "sole_reason": 0
+    },
+    "supersession_links": {
+      "co_occurring": 120,
+      "instances": 120,
+      "partners": {
+        "lifecycle_ineligible": 120,
+        "ontology_incompatible": 60,
+        "scope_relation_mismatch": 60,
+        "source_untrusted": 60
+      },
+      "sole_reason": 0
+    }
+  },
+  "status": "pass"
+}

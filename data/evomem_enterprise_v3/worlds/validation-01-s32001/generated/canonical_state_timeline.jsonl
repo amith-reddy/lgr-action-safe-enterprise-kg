@@ -1,0 +1,215 @@
+{"after": "Standard", "before": "Premium", "event_time": "2026-05-07T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00001", "subject": "acct_001"}
+{"after": "active", "before": "active", "event_time": "2026-05-17T10:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00002", "subject": "acct_001"}
+{"after": "owner_002", "before": "owner_005", "event_time": "2026-05-07T10:00:00Z", "family": "Account owner change", "state_change_id": "sc_00003", "subject": "acct_001"}
+{"after": "eligibility_checked", "before": "submitted", "event_time": "2026-05-17T09:00:00Z", "family": "Refund workflow transition", "state_change_id": "sc_00004", "subject": "case_001"}
+{"after": "triaged", "before": "opened", "event_time": "2026-05-17T09:00:00Z", "family": "Ticket escalation transition", "state_change_id": "sc_00005", "subject": "case_041"}
+{"after": "Premium", "before": "EnterprisePlus", "event_time": "2026-05-08T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00006", "subject": "acct_002"}
+{"after": "active", "before": "active", "event_time": "2026-05-18T11:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00007", "subject": "acct_002"}
+{"after": "owner_003", "before": "owner_006", "event_time": "2026-05-08T11:00:00Z", "family": "Account owner change", "state_change_id": "sc_00008", "subject": "acct_002"}
+{"after": "manager_review_pending", "before": "submitted", "event_time": "2026-05-18T09:00:00Z", "family": "Refund workflow transition", "state_change_id": "sc_00009", "subject": "case_002"}
+{"after": "waiting_on_customer", "before": "opened", "event_time": "2026-05-18T09:00:00Z", "family": "Ticket escalation transition", "state_change_id": "sc_00010", "subject": "case_042"}
+{"after": "EnterprisePlus", "before": "Basic", "event_time": "2026-05-09T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00011", "subject": "acct_003"}
+{"after": "active", "before": "active", "event_time": "2026-05-19T12:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00012", "subject": "acct_003"}
+{"after": "owner_004", "before": "owner_007", "event_time": "2026-05-09T12:00:00Z", "family": "Account owner change", "state_change_id": "sc_00013", "subject": "acct_003"}
+{"after": "manager_review", "before": "submitted", "event_time": "2026-05-19T09:00:00Z", "family": "Refund workflow transition", "state_change_id": "sc_00014", "subject": "case_003"}
+{"after": "escalated", "before": "opened", "event_time": "2026-05-19T09:00:00Z", "family": "Ticket escalation transition", "state_change_id": "sc_00015", "subject": "case_043"}
+{"after": "Basic", "before": "Standard", "event_time": "2026-05-10T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00016", "subject": "acct_004"}
+{"after": "active", "before": "active", "event_time": "2026-05-20T13:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00017", "subject": "acct_004"}
+{"after": "owner_005", "before": "owner_008", "event_time": "2026-05-10T13:00:00Z", "family": "Account owner change", "state_change_id": "sc_00018", "subject": "acct_004"}
+{"after": "approved", "before": "submitted", "event_time": "2026-05-20T09:00:00Z", "family": "Refund workflow transition", "state_change_id": "sc_00019", "subject": "case_004"}
+{"after": "resolved", "before": "opened", "event_time": "2026-05-20T09:00:00Z", "family": "Ticket escalation transition", "state_change_id": "sc_00020", "subject": "case_044"}
+{"after": "Standard", "before": "Premium", "event_time": "2026-05-11T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00021", "subject": "acct_005"}
+{"after": "active", "before": "active", "event_time": "2026-05-21T14:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00022", "subject": "acct_005"}
+{"after": "owner_006", "before": "owner_009", "event_time": "2026-05-11T14:00:00Z", "family": "Account owner change", "state_change_id": "sc_00023", "subject": "acct_005"}
+{"after": "rejected", "before": "submitted", "event_time": "2026-05-21T09:00:00Z", "family": "Refund workflow transition", "state_change_id": "sc_00024", "subject": "case_005"}
+{"after": "opened", "before": "opened", "event_time": "2026-05-21T09:00:00Z", "family": "Ticket escalation transition", "state_change_id": "sc_00025", "subject": "case_045"}
+{"after": "Premium", "before": "EnterprisePlus", "event_time": "2026-05-12T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00026", "subject": "acct_006"}
+{"after": "active", "before": "active", "event_time": "2026-05-22T15:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00027", "subject": "acct_006"}
+{"after": "owner_007", "before": "owner_010", "event_time": "2026-05-12T15:00:00Z", "family": "Account owner change", "state_change_id": "sc_00028", "subject": "acct_006"}
+{"after": "submitted", "before": "submitted", "event_time": "2026-05-22T09:00:00Z", "family": "Refund workflow transition", "state_change_id": "sc_00029", "subject": "case_006"}
+{"after": "triaged", "before": "opened", "event_time": "2026-05-22T09:00:00Z", "family": "Ticket escalation transition", "state_change_id": "sc_00030", "subject": "case_046"}
+{"after": "EnterprisePlus", "before": "Basic", "event_time": "2026-05-13T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00031", "subject": "acct_007"}
+{"after": "suspended", "before": "active", "event_time": "2026-05-23T16:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00032", "subject": "acct_007"}
+{"after": "owner_008", "before": "owner_011", "event_time": "2026-05-13T16:00:00Z", "family": "Account owner change", "state_change_id": "sc_00033", "subject": "acct_007"}
+{"after": "eligibility_checked", "before": "submitted", "event_time": "2026-05-23T09:00:00Z", "family": "Refund workflow transition", "state_change_id": "sc_00034", "subject": "case_007"}
+{"after": "waiting_on_customer", "before": "opened", "event_time": "2026-05-23T09:00:00Z", "family": "Ticket escalation transition", "state_change_id": "sc_00035", "subject": "case_047"}
+{"after": "Basic", "before": "Standard", "event_time": "2026-05-14T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00036", "subject": "acct_008"}
+{"after": "active", "before": "active", "event_time": "2026-05-24T17:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00037", "subject": "acct_008"}
+{"after": "owner_009", "before": "owner_012", "event_time": "2026-05-14T17:00:00Z", "family": "Account owner change", "state_change_id": "sc_00038", "subject": "acct_008"}
+{"after": "manager_review_pending", "before": "submitted", "event_time": "2026-05-24T09:00:00Z", "family": "Refund workflow transition", "state_change_id": "sc_00039", "subject": "case_008"}
+{"after": "escalated", "before": "opened", "event_time": "2026-05-24T09:00:00Z", "family": "Ticket escalation transition", "state_change_id": "sc_00040", "subject": "case_048"}
+{"after": "Standard", "before": "Premium", "event_time": "2026-05-15T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00041", "subject": "acct_009"}
+{"after": "active", "before": "active", "event_time": "2026-05-25T18:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00042", "subject": "acct_009"}
+{"after": "owner_010", "before": "owner_013", "event_time": "2026-05-15T18:00:00Z", "family": "Account owner change", "state_change_id": "sc_00043", "subject": "acct_009"}
+{"after": "manager_review", "before": "submitted", "event_time": "2026-05-25T09:00:00Z", "family": "Refund workflow transition", "state_change_id": "sc_00044", "subject": "case_009"}
+{"after": "resolved", "before": "opened", "event_time": "2026-05-25T09:00:00Z", "family": "Ticket escalation transition", "state_change_id": "sc_00045", "subject": "case_049"}
+{"after": "Premium", "before": "EnterprisePlus", "event_time": "2026-05-16T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00046", "subject": "acct_010"}
+{"after": "active", "before": "active", "event_time": "2026-05-16T19:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00047", "subject": "acct_010"}
+{"after": "owner_011", "before": "owner_014", "event_time": "2026-05-16T19:00:00Z", "family": "Account owner change", "state_change_id": "sc_00048", "subject": "acct_010"}
+{"after": "approved", "before": "submitted", "event_time": "2026-05-16T09:00:00Z", "family": "Refund workflow transition", "state_change_id": "sc_00049", "subject": "case_010"}
+{"after": "opened", "before": "opened", "event_time": "2026-05-16T09:00:00Z", "family": "Ticket escalation transition", "state_change_id": "sc_00050", "subject": "case_050"}
+{"after": "EnterprisePlus", "before": "Basic", "event_time": "2026-05-17T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00051", "subject": "acct_011"}
+{"after": "active", "before": "active", "event_time": "2026-05-17T20:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00052", "subject": "acct_011"}
+{"after": "owner_012", "before": "owner_015", "event_time": "2026-05-17T20:00:00Z", "family": "Account owner change", "state_change_id": "sc_00053", "subject": "acct_011"}
+{"after": "rejected", "before": "submitted", "event_time": "2026-05-17T09:00:00Z", "family": "Refund workflow transition", "state_change_id": "sc_00054", "subject": "case_011"}
+{"after": "triaged", "before": "opened", "event_time": "2026-05-17T09:00:00Z", "family": "Ticket escalation transition", "state_change_id": "sc_00055", "subject": "case_051"}
+{"after": "Basic", "before": "Standard", "event_time": "2026-05-18T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00056", "subject": "acct_012"}
+{"after": "active", "before": "active", "event_time": "2026-05-18T21:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00057", "subject": "acct_012"}
+{"after": "owner_013", "before": "owner_016", "event_time": "2026-05-18T21:00:00Z", "family": "Account owner change", "state_change_id": "sc_00058", "subject": "acct_012"}
+{"after": "submitted", "before": "submitted", "event_time": "2026-05-18T09:00:00Z", "family": "Refund workflow transition", "state_change_id": "sc_00059", "subject": "case_012"}
+{"after": "waiting_on_customer", "before": "opened", "event_time": "2026-05-18T09:00:00Z", "family": "Ticket escalation transition", "state_change_id": "sc_00060", "subject": "case_052"}
+{"after": "Standard", "before": "Premium", "event_time": "2026-05-19T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00061", "subject": "acct_013"}
+{"after": "active", "before": "active", "event_time": "2026-05-19T22:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00062", "subject": "acct_013"}
+{"after": "owner_014", "before": "owner_017", "event_time": "2026-05-19T22:00:00Z", "family": "Account owner change", "state_change_id": "sc_00063", "subject": "acct_013"}
+{"after": "eligibility_checked", "before": "submitted", "event_time": "2026-05-19T09:00:00Z", "family": "Refund workflow transition", "state_change_id": "sc_00064", "subject": "case_013"}
+{"after": "escalated", "before": "opened", "event_time": "2026-05-19T09:00:00Z", "family": "Ticket escalation transition", "state_change_id": "sc_00065", "subject": "case_053"}
+{"after": "Premium", "before": "EnterprisePlus", "event_time": "2026-05-20T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00066", "subject": "acct_014"}
+{"after": "suspended", "before": "active", "event_time": "2026-05-20T23:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00067", "subject": "acct_014"}
+{"after": "owner_015", "before": "owner_018", "event_time": "2026-05-20T23:00:00Z", "family": "Account owner change", "state_change_id": "sc_00068", "subject": "acct_014"}
+{"after": "manager_review_pending", "before": "submitted", "event_time": "2026-05-20T09:00:00Z", "family": "Refund workflow transition", "state_change_id": "sc_00069", "subject": "case_014"}
+{"after": "resolved", "before": "opened", "event_time": "2026-05-20T09:00:00Z", "family": "Ticket escalation transition", "state_change_id": "sc_00070", "subject": "case_054"}
+{"after": "EnterprisePlus", "before": "Basic", "event_time": "2026-05-21T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00071", "subject": "acct_015"}
+{"after": "active", "before": "active", "event_time": "2026-05-22T00:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00072", "subject": "acct_015"}
+{"after": "owner_016", "before": "owner_019", "event_time": "2026-05-22T00:00:00Z", "family": "Account owner change", "state_change_id": "sc_00073", "subject": "acct_015"}
+{"after": "manager_review", "before": "submitted", "event_time": "2026-05-21T09:00:00Z", "family": "Refund workflow transition", "state_change_id": "sc_00074", "subject": "case_015"}
+{"after": "opened", "before": "opened", "event_time": "2026-05-21T09:00:00Z", "family": "Ticket escalation transition", "state_change_id": "sc_00075", "subject": "case_055"}
+{"after": "Basic", "before": "Standard", "event_time": "2026-05-22T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00076", "subject": "acct_016"}
+{"after": "active", "before": "active", "event_time": "2026-05-23T01:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00077", "subject": "acct_016"}
+{"after": "owner_017", "before": "owner_020", "event_time": "2026-05-23T01:00:00Z", "family": "Account owner change", "state_change_id": "sc_00078", "subject": "acct_016"}
+{"after": "approved", "before": "submitted", "event_time": "2026-05-22T09:00:00Z", "family": "Refund workflow transition", "state_change_id": "sc_00079", "subject": "case_016"}
+{"after": "Standard", "before": "Premium", "event_time": "2026-05-23T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00080", "subject": "acct_017"}
+{"after": "active", "before": "active", "event_time": "2026-05-24T02:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00081", "subject": "acct_017"}
+{"after": "owner_018", "before": "owner_001", "event_time": "2026-05-24T02:00:00Z", "family": "Account owner change", "state_change_id": "sc_00082", "subject": "acct_017"}
+{"after": "rejected", "before": "submitted", "event_time": "2026-05-23T09:00:00Z", "family": "Refund workflow transition", "state_change_id": "sc_00083", "subject": "case_017"}
+{"after": "Premium", "before": "EnterprisePlus", "event_time": "2026-05-24T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00084", "subject": "acct_018"}
+{"after": "active", "before": "active", "event_time": "2026-05-25T03:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00085", "subject": "acct_018"}
+{"after": "owner_019", "before": "owner_002", "event_time": "2026-05-25T03:00:00Z", "family": "Account owner change", "state_change_id": "sc_00086", "subject": "acct_018"}
+{"after": "submitted", "before": "submitted", "event_time": "2026-05-24T09:00:00Z", "family": "Refund workflow transition", "state_change_id": "sc_00087", "subject": "case_018"}
+{"after": "EnterprisePlus", "before": "Basic", "event_time": "2026-05-25T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00088", "subject": "acct_019"}
+{"after": "active", "before": "active", "event_time": "2026-05-26T04:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00089", "subject": "acct_019"}
+{"after": "owner_020", "before": "owner_003", "event_time": "2026-05-26T04:00:00Z", "family": "Account owner change", "state_change_id": "sc_00090", "subject": "acct_019"}
+{"after": "eligibility_checked", "before": "submitted", "event_time": "2026-05-25T09:00:00Z", "family": "Refund workflow transition", "state_change_id": "sc_00091", "subject": "case_019"}
+{"after": "Basic", "before": "Standard", "event_time": "2026-05-06T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00092", "subject": "acct_020"}
+{"after": "active", "before": "active", "event_time": "2026-05-17T05:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00093", "subject": "acct_020"}
+{"after": "owner_001", "before": "owner_004", "event_time": "2026-05-07T05:00:00Z", "family": "Account owner change", "state_change_id": "sc_00094", "subject": "acct_020"}
+{"after": "manager_review_pending", "before": "submitted", "event_time": "2026-05-16T09:00:00Z", "family": "Refund workflow transition", "state_change_id": "sc_00095", "subject": "case_020"}
+{"after": "Standard", "before": "Premium", "event_time": "2026-05-07T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00096", "subject": "acct_021"}
+{"after": "suspended", "before": "active", "event_time": "2026-05-18T06:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00097", "subject": "acct_021"}
+{"after": "owner_002", "before": "owner_005", "event_time": "2026-05-08T06:00:00Z", "family": "Account owner change", "state_change_id": "sc_00098", "subject": "acct_021"}
+{"after": "Premium", "before": "EnterprisePlus", "event_time": "2026-05-08T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00099", "subject": "acct_022"}
+{"after": "active", "before": "active", "event_time": "2026-05-19T07:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00100", "subject": "acct_022"}
+{"after": "owner_003", "before": "owner_006", "event_time": "2026-05-09T07:00:00Z", "family": "Account owner change", "state_change_id": "sc_00101", "subject": "acct_022"}
+{"after": "EnterprisePlus", "before": "Basic", "event_time": "2026-05-09T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00102", "subject": "acct_023"}
+{"after": "active", "before": "active", "event_time": "2026-05-20T08:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00103", "subject": "acct_023"}
+{"after": "owner_004", "before": "owner_007", "event_time": "2026-05-10T08:00:00Z", "family": "Account owner change", "state_change_id": "sc_00104", "subject": "acct_023"}
+{"after": "Basic", "before": "Standard", "event_time": "2026-05-10T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00105", "subject": "acct_024"}
+{"after": "active", "before": "active", "event_time": "2026-05-21T09:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00106", "subject": "acct_024"}
+{"after": "owner_005", "before": "owner_008", "event_time": "2026-05-11T09:00:00Z", "family": "Account owner change", "state_change_id": "sc_00107", "subject": "acct_024"}
+{"after": "Standard", "before": "Premium", "event_time": "2026-05-11T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00108", "subject": "acct_025"}
+{"after": "active", "before": "active", "event_time": "2026-05-22T10:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00109", "subject": "acct_025"}
+{"after": "owner_006", "before": "owner_009", "event_time": "2026-05-12T10:00:00Z", "family": "Account owner change", "state_change_id": "sc_00110", "subject": "acct_025"}
+{"after": "Premium", "before": "EnterprisePlus", "event_time": "2026-05-12T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00111", "subject": "acct_026"}
+{"after": "active", "before": "active", "event_time": "2026-05-23T11:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00112", "subject": "acct_026"}
+{"after": "owner_007", "before": "owner_010", "event_time": "2026-05-13T11:00:00Z", "family": "Account owner change", "state_change_id": "sc_00113", "subject": "acct_026"}
+{"after": "EnterprisePlus", "before": "Basic", "event_time": "2026-05-13T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00114", "subject": "acct_027"}
+{"after": "active", "before": "active", "event_time": "2026-05-24T12:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00115", "subject": "acct_027"}
+{"after": "owner_008", "before": "owner_011", "event_time": "2026-05-14T12:00:00Z", "family": "Account owner change", "state_change_id": "sc_00116", "subject": "acct_027"}
+{"after": "Basic", "before": "Standard", "event_time": "2026-05-14T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00117", "subject": "acct_028"}
+{"after": "suspended", "before": "active", "event_time": "2026-05-25T13:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00118", "subject": "acct_028"}
+{"after": "owner_009", "before": "owner_012", "event_time": "2026-05-15T13:00:00Z", "family": "Account owner change", "state_change_id": "sc_00119", "subject": "acct_028"}
+{"after": "Standard", "before": "Premium", "event_time": "2026-05-15T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00120", "subject": "acct_029"}
+{"after": "active", "before": "active", "event_time": "2026-05-26T14:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00121", "subject": "acct_029"}
+{"after": "owner_010", "before": "owner_013", "event_time": "2026-05-16T14:00:00Z", "family": "Account owner change", "state_change_id": "sc_00122", "subject": "acct_029"}
+{"after": "Premium", "before": "EnterprisePlus", "event_time": "2026-05-16T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00123", "subject": "acct_030"}
+{"after": "active", "before": "active", "event_time": "2026-05-17T15:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00124", "subject": "acct_030"}
+{"after": "owner_011", "before": "owner_014", "event_time": "2026-05-17T15:00:00Z", "family": "Account owner change", "state_change_id": "sc_00125", "subject": "acct_030"}
+{"after": "EnterprisePlus", "before": "Basic", "event_time": "2026-05-17T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00126", "subject": "acct_031"}
+{"after": "active", "before": "active", "event_time": "2026-05-18T16:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00127", "subject": "acct_031"}
+{"after": "owner_012", "before": "owner_015", "event_time": "2026-05-18T16:00:00Z", "family": "Account owner change", "state_change_id": "sc_00128", "subject": "acct_031"}
+{"after": "Basic", "before": "Standard", "event_time": "2026-05-18T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00129", "subject": "acct_032"}
+{"after": "active", "before": "active", "event_time": "2026-05-19T17:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00130", "subject": "acct_032"}
+{"after": "owner_013", "before": "owner_016", "event_time": "2026-05-19T17:00:00Z", "family": "Account owner change", "state_change_id": "sc_00131", "subject": "acct_032"}
+{"after": "Standard", "before": "Premium", "event_time": "2026-05-19T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00132", "subject": "acct_033"}
+{"after": "active", "before": "active", "event_time": "2026-05-20T18:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00133", "subject": "acct_033"}
+{"after": "owner_014", "before": "owner_017", "event_time": "2026-05-20T18:00:00Z", "family": "Account owner change", "state_change_id": "sc_00134", "subject": "acct_033"}
+{"after": "Premium", "before": "EnterprisePlus", "event_time": "2026-05-20T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00135", "subject": "acct_034"}
+{"after": "active", "before": "active", "event_time": "2026-05-21T19:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00136", "subject": "acct_034"}
+{"after": "owner_015", "before": "owner_018", "event_time": "2026-05-21T19:00:00Z", "family": "Account owner change", "state_change_id": "sc_00137", "subject": "acct_034"}
+{"after": "EnterprisePlus", "before": "Basic", "event_time": "2026-05-21T09:00:00Z", "family": "Subscription upgrade/downgrade", "state_change_id": "sc_00138", "subject": "acct_035"}
+{"after": "suspended", "before": "active", "event_time": "2026-05-22T20:00:00Z", "family": "Subscription suspension/reactivation", "state_change_id": "sc_00139", "subject": "acct_035"}
+{"after": "owner_016", "before": "owner_019", "event_time": "2026-05-22T20:00:00Z", "family": "Account owner change", "state_change_id": "sc_00140", "subject": "acct_035"}
+{"after": "sla_policy_v2", "before": "sla_policy_v1", "event_time": "2026-05-21T09:00:00Z", "family": "SLA policy change", "state_change_id": "sc_00141", "subject": "sla_policy"}
+{"after": "refund_policy_v2", "before": "refund_policy_v1", "event_time": "2026-05-21T09:00:00Z", "family": "Refund policy change", "state_change_id": "sc_00142", "subject": "refund_policy"}
+{"after": "v2", "before": "v1", "event_time": "2026-05-22T09:00:00Z", "family": "SLA policy change", "state_change_id": "sc_00143", "subject": "sla_policy_rule_0"}
+{"after": "v2", "before": "v1", "event_time": "2026-05-22T09:00:00Z", "family": "Refund policy change", "state_change_id": "sc_00144", "subject": "refund_policy_rule_0"}
+{"after": "v2", "before": "v1", "event_time": "2026-05-23T09:00:00Z", "family": "SLA policy change", "state_change_id": "sc_00145", "subject": "sla_policy_rule_1"}
+{"after": "v2", "before": "v1", "event_time": "2026-05-23T09:00:00Z", "family": "Refund policy change", "state_change_id": "sc_00146", "subject": "refund_policy_rule_1"}
+{"after": "v2", "before": "v1", "event_time": "2026-05-24T09:00:00Z", "family": "SLA policy change", "state_change_id": "sc_00147", "subject": "sla_policy_rule_2"}
+{"after": "v2", "before": "v1", "event_time": "2026-05-24T09:00:00Z", "family": "Refund policy change", "state_change_id": "sc_00148", "subject": "refund_policy_rule_2"}
+{"after": "v2", "before": "v1", "event_time": "2026-05-25T09:00:00Z", "family": "SLA policy change", "state_change_id": "sc_00149", "subject": "sla_policy_rule_3"}
+{"after": "v2", "before": "v1", "event_time": "2026-05-25T09:00:00Z", "family": "Refund policy change", "state_change_id": "sc_00150", "subject": "refund_policy_rule_3"}
+{"after": "v2", "before": "v1", "event_time": "2026-05-26T09:00:00Z", "family": "SLA policy change", "state_change_id": "sc_00151", "subject": "sla_policy_rule_4"}
+{"after": "v2", "before": "v1", "event_time": "2026-05-26T09:00:00Z", "family": "Refund policy change", "state_change_id": "sc_00152", "subject": "refund_policy_rule_4"}
+{"after": "v2", "before": "v1", "event_time": "2026-05-27T09:00:00Z", "family": "SLA policy change", "state_change_id": "sc_00153", "subject": "sla_policy_rule_5"}
+{"after": "v2", "before": "v1", "event_time": "2026-05-27T09:00:00Z", "family": "Refund policy change", "state_change_id": "sc_00154", "subject": "refund_policy_rule_5"}
+{"after": "v2", "before": "v1", "event_time": "2026-05-28T09:00:00Z", "family": "SLA policy change", "state_change_id": "sc_00155", "subject": "sla_policy_rule_6"}
+{"after": "v2", "before": "v1", "event_time": "2026-05-28T09:00:00Z", "family": "Refund policy change", "state_change_id": "sc_00156", "subject": "refund_policy_rule_6"}
+{"after": "v2", "before": "v1", "event_time": "2026-05-29T09:00:00Z", "family": "SLA policy change", "state_change_id": "sc_00157", "subject": "sla_policy_rule_7"}
+{"after": "v2", "before": "v1", "event_time": "2026-05-29T09:00:00Z", "family": "Refund policy change", "state_change_id": "sc_00158", "subject": "refund_policy_rule_7"}
+{"after": "v2", "before": "v1", "event_time": "2026-05-30T09:00:00Z", "family": "SLA policy change", "state_change_id": "sc_00159", "subject": "sla_policy_rule_8"}
+{"after": "v2", "before": "v1", "event_time": "2026-05-30T09:00:00Z", "family": "Refund policy change", "state_change_id": "sc_00160", "subject": "refund_policy_rule_8"}
+{"after": "ov_3", "before": "ov_2", "event_time": "2026-05-16T09:00:00Z", "family": "Ontology migration event", "state_change_id": "sc_00161", "subject": "ontology_migration_0"}
+{"after": "ov_3", "before": "ov_2", "event_time": "2026-05-17T09:00:00Z", "family": "Ontology migration event", "state_change_id": "sc_00162", "subject": "ontology_migration_1"}
+{"after": "ov_3", "before": "ov_2", "event_time": "2026-05-18T09:00:00Z", "family": "Ontology migration event", "state_change_id": "sc_00163", "subject": "ontology_migration_2"}
+{"after": "ov_3", "before": "ov_2", "event_time": "2026-05-19T09:00:00Z", "family": "Ontology migration event", "state_change_id": "sc_00164", "subject": "ontology_migration_3"}
+{"after": "ov_3", "before": "ov_2", "event_time": "2026-05-20T09:00:00Z", "family": "Ontology migration event", "state_change_id": "sc_00165", "subject": "ontology_migration_4"}
+{"after": "after_0", "before": "before_0", "event_time": "2026-04-21T09:00:00Z", "family": "Entitlement grant/revoke/change", "state_change_id": "sc_00166", "subject": "acct_026"}
+{"after": "after_1", "before": "before_1", "event_time": "2026-04-22T09:00:00Z", "family": "Entitlement grant/revoke/change", "state_change_id": "sc_00167", "subject": "acct_028"}
+{"after": "after_2", "before": "before_2", "event_time": "2026-04-23T09:00:00Z", "family": "Entitlement grant/revoke/change", "state_change_id": "sc_00168", "subject": "acct_030"}
+{"after": "after_3", "before": "before_3", "event_time": "2026-04-24T09:00:00Z", "family": "Entitlement grant/revoke/change", "state_change_id": "sc_00169", "subject": "acct_032"}
+{"after": "after_4", "before": "before_4", "event_time": "2026-04-25T09:00:00Z", "family": "Entitlement grant/revoke/change", "state_change_id": "sc_00170", "subject": "acct_034"}
+{"after": "after_5", "before": "before_5", "event_time": "2026-04-26T09:00:00Z", "family": "Entitlement grant/revoke/change", "state_change_id": "sc_00171", "subject": "acct_001"}
+{"after": "after_6", "before": "before_6", "event_time": "2026-04-27T09:00:00Z", "family": "Entitlement grant/revoke/change", "state_change_id": "sc_00172", "subject": "acct_003"}
+{"after": "after_7", "before": "before_7", "event_time": "2026-04-28T09:00:00Z", "family": "Entitlement grant/revoke/change", "state_change_id": "sc_00173", "subject": "acct_005"}
+{"after": "after_8", "before": "before_8", "event_time": "2026-04-29T09:00:00Z", "family": "Entitlement grant/revoke/change", "state_change_id": "sc_00174", "subject": "acct_007"}
+{"after": "after_9", "before": "before_9", "event_time": "2026-04-30T09:00:00Z", "family": "Entitlement grant/revoke/change", "state_change_id": "sc_00175", "subject": "acct_009"}
+{"after": "after_10", "before": "before_10", "event_time": "2026-05-01T09:00:00Z", "family": "Entitlement grant/revoke/change", "state_change_id": "sc_00176", "subject": "acct_011"}
+{"after": "after_11", "before": "before_11", "event_time": "2026-05-02T09:00:00Z", "family": "Entitlement grant/revoke/change", "state_change_id": "sc_00177", "subject": "acct_013"}
+{"after": "after_12", "before": "before_12", "event_time": "2026-05-03T09:00:00Z", "family": "Entitlement grant/revoke/change", "state_change_id": "sc_00178", "subject": "acct_015"}
+{"after": "after_13", "before": "before_13", "event_time": "2026-05-04T09:00:00Z", "family": "Entitlement grant/revoke/change", "state_change_id": "sc_00179", "subject": "acct_017"}
+{"after": "after_14", "before": "before_14", "event_time": "2026-05-05T09:00:00Z", "family": "Entitlement grant/revoke/change", "state_change_id": "sc_00180", "subject": "acct_019"}
+{"after": "after_15", "before": "before_15", "event_time": "2026-05-06T09:00:00Z", "family": "Entitlement grant/revoke/change", "state_change_id": "sc_00181", "subject": "acct_021"}
+{"after": "after_16", "before": "before_16", "event_time": "2026-05-07T09:00:00Z", "family": "Entitlement grant/revoke/change", "state_change_id": "sc_00182", "subject": "acct_023"}
+{"after": "after_17", "before": "before_17", "event_time": "2026-05-08T09:00:00Z", "family": "Entitlement grant/revoke/change", "state_change_id": "sc_00183", "subject": "acct_025"}
+{"after": "after_18", "before": "before_18", "event_time": "2026-05-09T09:00:00Z", "family": "Entitlement grant/revoke/change", "state_change_id": "sc_00184", "subject": "acct_027"}
+{"after": "after_19", "before": "before_19", "event_time": "2026-05-10T09:00:00Z", "family": "Entitlement grant/revoke/change", "state_change_id": "sc_00185", "subject": "acct_029"}
+{"after": "after_20", "before": "before_20", "event_time": "2026-05-11T09:00:00Z", "family": "Entitlement grant/revoke/change", "state_change_id": "sc_00186", "subject": "acct_031"}
+{"after": "after_21", "before": "before_21", "event_time": "2026-05-12T09:00:00Z", "family": "Entitlement grant/revoke/change", "state_change_id": "sc_00187", "subject": "acct_033"}
+{"after": "after_22", "before": "before_22", "event_time": "2026-05-13T09:00:00Z", "family": "Entitlement grant/revoke/change", "state_change_id": "sc_00188", "subject": "acct_035"}
+{"after": "after_23", "before": "before_23", "event_time": "2026-05-14T09:00:00Z", "family": "Entitlement grant/revoke/change", "state_change_id": "sc_00189", "subject": "acct_002"}
+{"after": "after_24", "before": "before_24", "event_time": "2026-05-15T09:00:00Z", "family": "Entitlement grant/revoke/change", "state_change_id": "sc_00190", "subject": "acct_004"}
+{"after": "after_0", "before": "before_0", "event_time": "2026-04-21T09:00:00Z", "family": "Household/account relationship change", "state_change_id": "sc_00191", "subject": "acct_016"}
+{"after": "after_1", "before": "before_1", "event_time": "2026-04-22T09:00:00Z", "family": "Household/account relationship change", "state_change_id": "sc_00192", "subject": "acct_018"}
+{"after": "after_2", "before": "before_2", "event_time": "2026-04-23T09:00:00Z", "family": "Household/account relationship change", "state_change_id": "sc_00193", "subject": "acct_020"}
+{"after": "after_3", "before": "before_3", "event_time": "2026-04-24T09:00:00Z", "family": "Household/account relationship change", "state_change_id": "sc_00194", "subject": "acct_022"}
+{"after": "after_4", "before": "before_4", "event_time": "2026-04-25T09:00:00Z", "family": "Household/account relationship change", "state_change_id": "sc_00195", "subject": "acct_024"}
+{"after": "after_5", "before": "before_5", "event_time": "2026-04-26T09:00:00Z", "family": "Household/account relationship change", "state_change_id": "sc_00196", "subject": "acct_026"}
+{"after": "after_6", "before": "before_6", "event_time": "2026-04-27T09:00:00Z", "family": "Household/account relationship change", "state_change_id": "sc_00197", "subject": "acct_028"}
+{"after": "after_7", "before": "before_7", "event_time": "2026-04-28T09:00:00Z", "family": "Household/account relationship change", "state_change_id": "sc_00198", "subject": "acct_030"}
+{"after": "after_8", "before": "before_8", "event_time": "2026-04-29T09:00:00Z", "family": "Household/account relationship change", "state_change_id": "sc_00199", "subject": "acct_032"}
+{"after": "after_9", "before": "before_9", "event_time": "2026-04-30T09:00:00Z", "family": "Household/account relationship change", "state_change_id": "sc_00200", "subject": "acct_034"}
+{"after": "after_0", "before": "before_0", "event_time": "2026-04-21T09:00:00Z", "family": "Account merge", "state_change_id": "sc_00201", "subject": "acct_026"}
+{"after": "after_1", "before": "before_1", "event_time": "2026-04-22T09:00:00Z", "family": "Account merge", "state_change_id": "sc_00202", "subject": "acct_028"}
+{"after": "after_2", "before": "before_2", "event_time": "2026-04-23T09:00:00Z", "family": "Account merge", "state_change_id": "sc_00203", "subject": "acct_030"}
+{"after": "after_3", "before": "before_3", "event_time": "2026-04-24T09:00:00Z", "family": "Account merge", "state_change_id": "sc_00204", "subject": "acct_032"}
+{"after": "after_4", "before": "before_4", "event_time": "2026-04-25T09:00:00Z", "family": "Account merge", "state_change_id": "sc_00205", "subject": "acct_034"}
+{"after": "after_5", "before": "before_5", "event_time": "2026-04-26T09:00:00Z", "family": "Account merge", "state_change_id": "sc_00206", "subject": "acct_001"}
+{"after": "after_6", "before": "before_6", "event_time": "2026-04-27T09:00:00Z", "family": "Account merge", "state_change_id": "sc_00207", "subject": "acct_003"}
+{"after": "after_7", "before": "before_7", "event_time": "2026-04-28T09:00:00Z", "family": "Account merge", "state_change_id": "sc_00208", "subject": "acct_005"}
+{"after": "after_0", "before": "before_0", "event_time": "2026-04-21T09:00:00Z", "family": "Account split", "state_change_id": "sc_00209", "subject": "acct_034"}
+{"after": "after_1", "before": "before_1", "event_time": "2026-04-22T09:00:00Z", "family": "Account split", "state_change_id": "sc_00210", "subject": "acct_001"}
+{"after": "after_2", "before": "before_2", "event_time": "2026-04-23T09:00:00Z", "family": "Account split", "state_change_id": "sc_00211", "subject": "acct_003"}
+{"after": "after_3", "before": "before_3", "event_time": "2026-04-24T09:00:00Z", "family": "Account split", "state_change_id": "sc_00212", "subject": "acct_005"}
+{"after": "after_4", "before": "before_4", "event_time": "2026-04-25T09:00:00Z", "family": "Account split", "state_change_id": "sc_00213", "subject": "acct_007"}
+{"after": "after_5", "before": "before_5", "event_time": "2026-04-26T09:00:00Z", "family": "Account split", "state_change_id": "sc_00214", "subject": "acct_009"}
+{"after": "after_6", "before": "before_6", "event_time": "2026-04-27T09:00:00Z", "family": "Account split", "state_change_id": "sc_00215", "subject": "acct_011"}

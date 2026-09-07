@@ -1,0 +1,28 @@
+{
+  "protocol_version": "lgr-jws-multiworld-v1",
+  "frozen_before_test_execution": true,
+  "generator_version": "evomem-enterprise-v3.0.0-rc1",
+  "worlds": {
+    "development": [31001, 31002, 31003],
+    "validation": [32001, 32002],
+    "test": [33001, 33002, 33003, 33004, 33005, 33006, 33007, 33008, 33009, 33010]
+  },
+  "primary_population": "contract-permitted frozen test tasks within each world",
+  "retained_diagnostics": ["retrospective", "out_of_scope"],
+  "primary_metric": "eligible_f1",
+  "secondary_metrics": ["eligible_recall", "stale_non_exposure", "loser_non_exposure"],
+  "primary_comparator_rule": "highest equal-weight mean eligible_f1 on validation worlds among released non-LGR retrieval baselines",
+  "uncertainty": {
+    "unit": "world",
+    "pairing": "method scores remain paired within each resampled world",
+    "bootstrap_samples": 10000,
+    "bootstrap_seed": 2026090501,
+    "interval": "percentile_95"
+  },
+  "exclusion_rule": "No generated world is excluded after execution; failures are retained and reported.",
+  "notes": [
+    "World count is an engineering budget, not a power guarantee.",
+    "All worlds share the generator family and therefore do not represent independent organizations.",
+    "The comparator is selected using validation worlds before test-world summary computation."
+  ]
+}

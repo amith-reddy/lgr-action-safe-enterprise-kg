@@ -1,0 +1,123 @@
+{
+  "states": [
+    "submitted",
+    "eligibility_checked",
+    "manager_review_pending",
+    "manager_review",
+    "approved",
+    "rejected",
+    "refund_issued",
+    "closed",
+    "appeal_opened"
+  ],
+  "transitions": [
+    {
+      "action": "check_eligibility",
+      "from": "submitted",
+      "guard": {
+        "exists": "refund_request"
+      },
+      "to": "eligibility_checked"
+    },
+    {
+      "action": "request_manager_approval",
+      "from": "eligibility_checked",
+      "guard": {
+        "equals": [
+          "workflow_state",
+          "eligibility_checked"
+        ]
+      },
+      "to": "manager_review_pending"
+    },
+    {
+      "action": "deny_refund",
+      "from": "eligibility_checked",
+      "guard": {
+        "equals": [
+          "workflow_state",
+          "eligibility_checked"
+        ]
+      },
+      "to": "rejected"
+    },
+    {
+      "action": "start_manager_review",
+      "from": "manager_review_pending",
+      "guard": {
+        "equals": [
+          "workflow_state",
+          "manager_review_pending"
+        ]
+      },
+      "to": "manager_review"
+    },
+    {
+      "action": "approve_refund",
+      "from": "manager_review",
+      "guard": {
+        "equals": [
+          "workflow_state",
+          "manager_review"
+        ]
+      },
+      "to": "approved"
+    },
+    {
+      "action": "reject_refund",
+      "from": "manager_review",
+      "guard": {
+        "equals": [
+          "workflow_state",
+          "manager_review"
+        ]
+      },
+      "to": "rejected"
+    },
+    {
+      "action": "issue_refund",
+      "from": "approved",
+      "guard": {
+        "equals": [
+          "workflow_state",
+          "approved"
+        ]
+      },
+      "to": "refund_issued"
+    },
+    {
+      "action": "close_case",
+      "from": "rejected",
+      "guard": {
+        "equals": [
+          "workflow_state",
+          "rejected"
+        ]
+      },
+      "to": "closed"
+    },
+    {
+      "action": "close_case",
+      "from": "refund_issued",
+      "guard": {
+        "equals": [
+          "workflow_state",
+          "refund_issued"
+        ]
+      },
+      "to": "closed"
+    },
+    {
+      "action": "open_appeal",
+      "from": "closed",
+      "guard": {
+        "equals": [
+          "workflow_state",
+          "closed"
+        ]
+      },
+      "to": "appeal_opened"
+    }
+  ],
+  "workflow_type": "refund_workflow"
+}

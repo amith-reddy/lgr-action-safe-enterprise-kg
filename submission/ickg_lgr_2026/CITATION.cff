@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this artifact, cite the manuscript and the versioned artifact release."
+title: "Lifecycle-Governed Retrieval and EvoMem-Enterprise Artifact"
+type: software
+version: "3.0.0-rc2"
+license: MIT
+date-released: 2026-09-05
+authors:
+  - family-names: "Ravuru"
+    given-names: "Amith Reddy"
+    affiliation: "Independent Researcher"
+keywords:
+  - knowledge graphs
+  - retrieval-augmented generation
+  - lifecycle governance
+  - action admission
+abstract: >-
+  Reference implementation, generated benchmark worlds, validation-only label
+  checkers, conformance tests, composed comparator, and raw evaluation outputs
+  accompanying the lifecycle-governed retrieval manuscript.

@@ -1,0 +1,601 @@
+{"entity_id": "cust_001", "entity_type": "Customer", "region": "EU"}
+{"entity_id": "cust_002", "entity_type": "Customer", "region": "APAC"}
+{"entity_id": "cust_003", "entity_type": "Customer", "region": "LATAM"}
+{"entity_id": "cust_004", "entity_type": "Customer", "region": "MEA"}
+{"entity_id": "cust_005", "entity_type": "Customer", "region": "ANZ"}
+{"entity_id": "cust_006", "entity_type": "Customer", "region": "NA"}
+{"entity_id": "cust_007", "entity_type": "Customer", "region": "EU"}
+{"entity_id": "cust_008", "entity_type": "Customer", "region": "APAC"}
+{"entity_id": "cust_009", "entity_type": "Customer", "region": "LATAM"}
+{"entity_id": "cust_010", "entity_type": "Customer", "region": "MEA"}
+{"entity_id": "cust_011", "entity_type": "Customer", "region": "ANZ"}
+{"entity_id": "cust_012", "entity_type": "Customer", "region": "NA"}
+{"entity_id": "cust_013", "entity_type": "Customer", "region": "EU"}
+{"entity_id": "cust_014", "entity_type": "Customer", "region": "APAC"}
+{"entity_id": "cust_015", "entity_type": "Customer", "region": "LATAM"}
+{"entity_id": "cust_016", "entity_type": "Customer", "region": "MEA"}
+{"entity_id": "cust_017", "entity_type": "Customer", "region": "ANZ"}
+{"entity_id": "cust_018", "entity_type": "Customer", "region": "NA"}
+{"entity_id": "cust_019", "entity_type": "Customer", "region": "EU"}
+{"entity_id": "cust_020", "entity_type": "Customer", "region": "APAC"}
+{"entity_id": "cust_021", "entity_type": "Customer", "region": "LATAM"}
+{"entity_id": "cust_022", "entity_type": "Customer", "region": "MEA"}
+{"entity_id": "cust_023", "entity_type": "Customer", "region": "ANZ"}
+{"entity_id": "cust_024", "entity_type": "Customer", "region": "NA"}
+{"entity_id": "cust_025", "entity_type": "Customer", "region": "EU"}
+{"entity_id": "cust_026", "entity_type": "Customer", "region": "APAC"}
+{"entity_id": "cust_027", "entity_type": "Customer", "region": "LATAM"}
+{"entity_id": "cust_028", "entity_type": "Customer", "region": "MEA"}
+{"entity_id": "cust_029", "entity_type": "Customer", "region": "ANZ"}
+{"entity_id": "cust_030", "entity_type": "Customer", "region": "NA"}
+{"entity_id": "cust_031", "entity_type": "Customer", "region": "EU"}
+{"entity_id": "cust_032", "entity_type": "Customer", "region": "APAC"}
+{"entity_id": "cust_033", "entity_type": "Customer", "region": "LATAM"}
+{"entity_id": "cust_034", "entity_type": "Customer", "region": "MEA"}
+{"entity_id": "cust_035", "entity_type": "Customer", "region": "ANZ"}
+{"entity_id": "cust_036", "entity_type": "Customer", "region": "NA"}
+{"entity_id": "cust_037", "entity_type": "Customer", "region": "EU"}
+{"entity_id": "cust_038", "entity_type": "Customer", "region": "APAC"}
+{"entity_id": "cust_039", "entity_type": "Customer", "region": "LATAM"}
+{"entity_id": "cust_040", "entity_type": "Customer", "region": "MEA"}
+{"entity_id": "acct_001", "entity_type": "Account", "region": "EU"}
+{"entity_id": "acct_002", "entity_type": "Account", "region": "APAC"}
+{"entity_id": "acct_003", "entity_type": "Account", "region": "LATAM"}
+{"entity_id": "acct_004", "entity_type": "Account", "region": "MEA"}
+{"entity_id": "acct_005", "entity_type": "Account", "region": "ANZ"}
+{"entity_id": "acct_006", "entity_type": "Account", "region": "NA"}
+{"entity_id": "acct_007", "entity_type": "Account", "region": "EU"}
+{"entity_id": "acct_008", "entity_type": "Account", "region": "APAC"}
+{"entity_id": "acct_009", "entity_type": "Account", "region": "LATAM"}
+{"entity_id": "acct_010", "entity_type": "Account", "region": "MEA"}
+{"entity_id": "acct_011", "entity_type": "Account", "region": "ANZ"}
+{"entity_id": "acct_012", "entity_type": "Account", "region": "NA"}
+{"entity_id": "acct_013", "entity_type": "Account", "region": "EU"}
+{"entity_id": "acct_014", "entity_type": "Account", "region": "APAC"}
+{"entity_id": "acct_015", "entity_type": "Account", "region": "LATAM"}
+{"entity_id": "acct_016", "entity_type": "Account", "region": "MEA"}
+{"entity_id": "acct_017", "entity_type": "Account", "region": "ANZ"}
+{"entity_id": "acct_018", "entity_type": "Account", "region": "NA"}
+{"entity_id": "acct_019", "entity_type": "Account", "region": "EU"}
+{"entity_id": "acct_020", "entity_type": "Account", "region": "APAC"}
+{"entity_id": "acct_021", "entity_type": "Account", "region": "LATAM"}
+{"entity_id": "acct_022", "entity_type": "Account", "region": "MEA"}
+{"entity_id": "acct_023", "entity_type": "Account", "region": "ANZ"}
+{"entity_id": "acct_024", "entity_type": "Account", "region": "NA"}
+{"entity_id": "acct_025", "entity_type": "Account", "region": "EU"}
+{"entity_id": "acct_026", "entity_type": "Account", "region": "APAC"}
+{"entity_id": "acct_027", "entity_type": "Account", "region": "LATAM"}
+{"entity_id": "acct_028", "entity_type": "Account", "region": "MEA"}
+{"entity_id": "acct_029", "entity_type": "Account", "region": "ANZ"}
+{"entity_id": "acct_030", "entity_type": "Account", "region": "NA"}
+{"entity_id": "acct_031", "entity_type": "Account", "region": "EU"}
+{"entity_id": "acct_032", "entity_type": "Account", "region": "APAC"}
+{"entity_id": "acct_033", "entity_type": "Account", "region": "LATAM"}
+{"entity_id": "acct_034", "entity_type": "Account", "region": "MEA"}
+{"entity_id": "acct_035", "entity_type": "Account", "region": "ANZ"}
+{"entity_id": "hh_001", "entity_type": "Household"}
+{"entity_id": "hh_002", "entity_type": "Household"}
+{"entity_id": "hh_003", "entity_type": "Household"}
+{"entity_id": "hh_004", "entity_type": "Household"}
+{"entity_id": "hh_005", "entity_type": "Household"}
+{"entity_id": "hh_006", "entity_type": "Household"}
+{"entity_id": "hh_007", "entity_type": "Household"}
+{"entity_id": "hh_008", "entity_type": "Household"}
+{"entity_id": "hh_009", "entity_type": "Household"}
+{"entity_id": "hh_010", "entity_type": "Household"}
+{"entity_id": "sub_001", "entity_type": "Subscription"}
+{"entity_id": "sub_002", "entity_type": "Subscription"}
+{"entity_id": "sub_003", "entity_type": "Subscription"}
+{"entity_id": "sub_004", "entity_type": "Subscription"}
+{"entity_id": "sub_005", "entity_type": "Subscription"}
+{"entity_id": "sub_006", "entity_type": "Subscription"}
+{"entity_id": "sub_007", "entity_type": "Subscription"}
+{"entity_id": "sub_008", "entity_type": "Subscription"}
+{"entity_id": "sub_009", "entity_type": "Subscription"}
+{"entity_id": "sub_010", "entity_type": "Subscription"}
+{"entity_id": "sub_011", "entity_type": "Subscription"}
+{"entity_id": "sub_012", "entity_type": "Subscription"}
+{"entity_id": "sub_013", "entity_type": "Subscription"}
+{"entity_id": "sub_014", "entity_type": "Subscription"}
+{"entity_id": "sub_015", "entity_type": "Subscription"}
+{"entity_id": "sub_016", "entity_type": "Subscription"}
+{"entity_id": "sub_017", "entity_type": "Subscription"}
+{"entity_id": "sub_018", "entity_type": "Subscription"}
+{"entity_id": "sub_019", "entity_type": "Subscription"}
+{"entity_id": "sub_020", "entity_type": "Subscription"}
+{"entity_id": "sub_021", "entity_type": "Subscription"}
+{"entity_id": "sub_022", "entity_type": "Subscription"}
+{"entity_id": "sub_023", "entity_type": "Subscription"}
+{"entity_id": "sub_024", "entity_type": "Subscription"}
+{"entity_id": "sub_025", "entity_type": "Subscription"}
+{"entity_id": "sub_026", "entity_type": "Subscription"}
+{"entity_id": "sub_027", "entity_type": "Subscription"}
+{"entity_id": "sub_028", "entity_type": "Subscription"}
+{"entity_id": "sub_029", "entity_type": "Subscription"}
+{"entity_id": "sub_030", "entity_type": "Subscription"}
+{"entity_id": "sub_031", "entity_type": "Subscription"}
+{"entity_id": "sub_032", "entity_type": "Subscription"}
+{"entity_id": "sub_033", "entity_type": "Subscription"}
+{"entity_id": "sub_034", "entity_type": "Subscription"}
+{"entity_id": "sub_035", "entity_type": "Subscription"}
+{"entity_id": "pent_001", "entity_type": "ProductEntitlement", "level": "Standard"}
+{"entity_id": "pent_002", "entity_type": "ProductEntitlement", "level": "Premium"}
+{"entity_id": "pent_003", "entity_type": "ProductEntitlement", "level": "EnterprisePlus"}
+{"entity_id": "pent_004", "entity_type": "ProductEntitlement", "level": "Basic"}
+{"entity_id": "pent_005", "entity_type": "ProductEntitlement", "level": "Standard"}
+{"entity_id": "pent_006", "entity_type": "ProductEntitlement", "level": "Premium"}
+{"entity_id": "pent_007", "entity_type": "ProductEntitlement", "level": "EnterprisePlus"}
+{"entity_id": "pent_008", "entity_type": "ProductEntitlement", "level": "Basic"}
+{"entity_id": "pent_009", "entity_type": "ProductEntitlement", "level": "Standard"}
+{"entity_id": "pent_010", "entity_type": "ProductEntitlement", "level": "Premium"}
+{"entity_id": "pent_011", "entity_type": "ProductEntitlement", "level": "EnterprisePlus"}
+{"entity_id": "pent_012", "entity_type": "ProductEntitlement", "level": "Basic"}
+{"entity_id": "pent_013", "entity_type": "ProductEntitlement", "level": "Standard"}
+{"entity_id": "pent_014", "entity_type": "ProductEntitlement", "level": "Premium"}
+{"entity_id": "pent_015", "entity_type": "ProductEntitlement", "level": "EnterprisePlus"}
+{"entity_id": "pent_016", "entity_type": "ProductEntitlement", "level": "Basic"}
+{"entity_id": "pent_017", "entity_type": "ProductEntitlement", "level": "Standard"}
+{"entity_id": "pent_018", "entity_type": "ProductEntitlement", "level": "Premium"}
+{"entity_id": "pent_019", "entity_type": "ProductEntitlement", "level": "EnterprisePlus"}
+{"entity_id": "pent_020", "entity_type": "ProductEntitlement", "level": "Basic"}
+{"entity_id": "pent_021", "entity_type": "ProductEntitlement", "level": "Standard"}
+{"entity_id": "pent_022", "entity_type": "ProductEntitlement", "level": "Premium"}
+{"entity_id": "pent_023", "entity_type": "ProductEntitlement", "level": "EnterprisePlus"}
+{"entity_id": "pent_024", "entity_type": "ProductEntitlement", "level": "Basic"}
+{"entity_id": "pent_025", "entity_type": "ProductEntitlement", "level": "Standard"}
+{"entity_id": "pent_026", "entity_type": "ProductEntitlement", "level": "Premium"}
+{"entity_id": "pent_027", "entity_type": "ProductEntitlement", "level": "EnterprisePlus"}
+{"entity_id": "pent_028", "entity_type": "ProductEntitlement", "level": "Basic"}
+{"entity_id": "pent_029", "entity_type": "ProductEntitlement", "level": "Standard"}
+{"entity_id": "pent_030", "entity_type": "ProductEntitlement", "level": "Premium"}
+{"entity_id": "pent_031", "entity_type": "ProductEntitlement", "level": "EnterprisePlus"}
+{"entity_id": "pent_032", "entity_type": "ProductEntitlement", "level": "Basic"}
+{"entity_id": "pent_033", "entity_type": "ProductEntitlement", "level": "Standard"}
+{"entity_id": "pent_034", "entity_type": "ProductEntitlement", "level": "Premium"}
+{"entity_id": "pent_035", "entity_type": "ProductEntitlement", "level": "EnterprisePlus"}
+{"entity_id": "pent_036", "entity_type": "ProductEntitlement", "level": "Basic"}
+{"entity_id": "pent_037", "entity_type": "ProductEntitlement", "level": "Standard"}
+{"entity_id": "pent_038", "entity_type": "ProductEntitlement", "level": "Premium"}
+{"entity_id": "pent_039", "entity_type": "ProductEntitlement", "level": "EnterprisePlus"}
+{"entity_id": "pent_040", "entity_type": "ProductEntitlement", "level": "Basic"}
+{"entity_id": "pent_041", "entity_type": "ProductEntitlement", "level": "Standard"}
+{"entity_id": "pent_042", "entity_type": "ProductEntitlement", "level": "Premium"}
+{"entity_id": "pent_043", "entity_type": "ProductEntitlement", "level": "EnterprisePlus"}
+{"entity_id": "pent_044", "entity_type": "ProductEntitlement", "level": "Basic"}
+{"entity_id": "pent_045", "entity_type": "ProductEntitlement", "level": "Standard"}
+{"entity_id": "pent_046", "entity_type": "ProductEntitlement", "level": "Premium"}
+{"entity_id": "pent_047", "entity_type": "ProductEntitlement", "level": "EnterprisePlus"}
+{"entity_id": "pent_048", "entity_type": "ProductEntitlement", "level": "Basic"}
+{"entity_id": "pent_049", "entity_type": "ProductEntitlement", "level": "Standard"}
+{"entity_id": "pent_050", "entity_type": "ProductEntitlement", "level": "Premium"}
+{"entity_id": "pent_051", "entity_type": "ProductEntitlement", "level": "EnterprisePlus"}
+{"entity_id": "pent_052", "entity_type": "ProductEntitlement", "level": "Basic"}
+{"entity_id": "pent_053", "entity_type": "ProductEntitlement", "level": "Standard"}
+{"entity_id": "pent_054", "entity_type": "ProductEntitlement", "level": "Premium"}
+{"entity_id": "pent_055", "entity_type": "ProductEntitlement", "level": "EnterprisePlus"}
+{"entity_id": "pent_056", "entity_type": "ProductEntitlement", "level": "Basic"}
+{"entity_id": "pent_057", "entity_type": "ProductEntitlement", "level": "Standard"}
+{"entity_id": "pent_058", "entity_type": "ProductEntitlement", "level": "Premium"}
+{"entity_id": "pent_059", "entity_type": "ProductEntitlement", "level": "EnterprisePlus"}
+{"entity_id": "pent_060", "entity_type": "ProductEntitlement", "level": "Basic"}
+{"entity_id": "sent_001", "entity_type": "SupportEntitlement", "level": "Standard"}
+{"entity_id": "sent_002", "entity_type": "SupportEntitlement", "level": "Premium"}
+{"entity_id": "sent_003", "entity_type": "SupportEntitlement", "level": "EnterprisePlus"}
+{"entity_id": "sent_004", "entity_type": "SupportEntitlement", "level": "Basic"}
+{"entity_id": "sent_005", "entity_type": "SupportEntitlement", "level": "Standard"}
+{"entity_id": "sent_006", "entity_type": "SupportEntitlement", "level": "Premium"}
+{"entity_id": "sent_007", "entity_type": "SupportEntitlement", "level": "EnterprisePlus"}
+{"entity_id": "sent_008", "entity_type": "SupportEntitlement", "level": "Basic"}
+{"entity_id": "sent_009", "entity_type": "SupportEntitlement", "level": "Standard"}
+{"entity_id": "sent_010", "entity_type": "SupportEntitlement", "level": "Premium"}
+{"entity_id": "sent_011", "entity_type": "SupportEntitlement", "level": "EnterprisePlus"}
+{"entity_id": "sent_012", "entity_type": "SupportEntitlement", "level": "Basic"}
+{"entity_id": "sent_013", "entity_type": "SupportEntitlement", "level": "Standard"}
+{"entity_id": "sent_014", "entity_type": "SupportEntitlement", "level": "Premium"}
+{"entity_id": "sent_015", "entity_type": "SupportEntitlement", "level": "EnterprisePlus"}
+{"entity_id": "sent_016", "entity_type": "SupportEntitlement", "level": "Basic"}
+{"entity_id": "sent_017", "entity_type": "SupportEntitlement", "level": "Standard"}
+{"entity_id": "sent_018", "entity_type": "SupportEntitlement", "level": "Premium"}
+{"entity_id": "sent_019", "entity_type": "SupportEntitlement", "level": "EnterprisePlus"}
+{"entity_id": "sent_020", "entity_type": "SupportEntitlement", "level": "Basic"}
+{"entity_id": "sent_021", "entity_type": "SupportEntitlement", "level": "Standard"}
+{"entity_id": "sent_022", "entity_type": "SupportEntitlement", "level": "Premium"}
+{"entity_id": "sent_023", "entity_type": "SupportEntitlement", "level": "EnterprisePlus"}
+{"entity_id": "sent_024", "entity_type": "SupportEntitlement", "level": "Basic"}
+{"entity_id": "sent_025", "entity_type": "SupportEntitlement", "level": "Standard"}
+{"entity_id": "sent_026", "entity_type": "SupportEntitlement", "level": "Premium"}
+{"entity_id": "sent_027", "entity_type": "SupportEntitlement", "level": "EnterprisePlus"}
+{"entity_id": "sent_028", "entity_type": "SupportEntitlement", "level": "Basic"}
+{"entity_id": "sent_029", "entity_type": "SupportEntitlement", "level": "Standard"}
+{"entity_id": "sent_030", "entity_type": "SupportEntitlement", "level": "Premium"}
+{"entity_id": "sent_031", "entity_type": "SupportEntitlement", "level": "EnterprisePlus"}
+{"entity_id": "sent_032", "entity_type": "SupportEntitlement", "level": "Basic"}
+{"entity_id": "sent_033", "entity_type": "SupportEntitlement", "level": "Standard"}
+{"entity_id": "sent_034", "entity_type": "SupportEntitlement", "level": "Premium"}
+{"entity_id": "sent_035", "entity_type": "SupportEntitlement", "level": "EnterprisePlus"}
+{"entity_id": "sent_036", "entity_type": "SupportEntitlement", "level": "Basic"}
+{"entity_id": "sent_037", "entity_type": "SupportEntitlement", "level": "Standard"}
+{"entity_id": "sent_038", "entity_type": "SupportEntitlement", "level": "Premium"}
+{"entity_id": "sent_039", "entity_type": "SupportEntitlement", "level": "EnterprisePlus"}
+{"entity_id": "sent_040", "entity_type": "SupportEntitlement", "level": "Basic"}
+{"entity_id": "sent_041", "entity_type": "SupportEntitlement", "level": "Standard"}
+{"entity_id": "sent_042", "entity_type": "SupportEntitlement", "level": "Premium"}
+{"entity_id": "sent_043", "entity_type": "SupportEntitlement", "level": "EnterprisePlus"}
+{"entity_id": "sent_044", "entity_type": "SupportEntitlement", "level": "Basic"}
+{"entity_id": "sent_045", "entity_type": "SupportEntitlement", "level": "Standard"}
+{"entity_id": "sent_046", "entity_type": "SupportEntitlement", "level": "Premium"}
+{"entity_id": "sent_047", "entity_type": "SupportEntitlement", "level": "EnterprisePlus"}
+{"entity_id": "sent_048", "entity_type": "SupportEntitlement", "level": "Basic"}
+{"entity_id": "sent_049", "entity_type": "SupportEntitlement", "level": "Standard"}
+{"entity_id": "sent_050", "entity_type": "SupportEntitlement", "level": "Premium"}
+{"entity_id": "sent_051", "entity_type": "SupportEntitlement", "level": "EnterprisePlus"}
+{"entity_id": "sent_052", "entity_type": "SupportEntitlement", "level": "Basic"}
+{"entity_id": "sent_053", "entity_type": "SupportEntitlement", "level": "Standard"}
+{"entity_id": "sent_054", "entity_type": "SupportEntitlement", "level": "Premium"}
+{"entity_id": "sent_055", "entity_type": "SupportEntitlement", "level": "EnterprisePlus"}
+{"entity_id": "sent_056", "entity_type": "SupportEntitlement", "level": "Basic"}
+{"entity_id": "sent_057", "entity_type": "SupportEntitlement", "level": "Standard"}
+{"entity_id": "sent_058", "entity_type": "SupportEntitlement", "level": "Premium"}
+{"entity_id": "sent_059", "entity_type": "SupportEntitlement", "level": "EnterprisePlus"}
+{"entity_id": "sent_060", "entity_type": "SupportEntitlement", "level": "Basic"}
+{"entity_id": "cent_001", "entity_type": "ContractualEntitlement", "tier": "Standard"}
+{"entity_id": "cent_002", "entity_type": "ContractualEntitlement", "tier": "Premium"}
+{"entity_id": "cent_003", "entity_type": "ContractualEntitlement", "tier": "EnterprisePlus"}
+{"entity_id": "cent_004", "entity_type": "ContractualEntitlement", "tier": "Basic"}
+{"entity_id": "cent_005", "entity_type": "ContractualEntitlement", "tier": "Standard"}
+{"entity_id": "cent_006", "entity_type": "ContractualEntitlement", "tier": "Premium"}
+{"entity_id": "cent_007", "entity_type": "ContractualEntitlement", "tier": "EnterprisePlus"}
+{"entity_id": "cent_008", "entity_type": "ContractualEntitlement", "tier": "Basic"}
+{"entity_id": "cent_009", "entity_type": "ContractualEntitlement", "tier": "Standard"}
+{"entity_id": "cent_010", "entity_type": "ContractualEntitlement", "tier": "Premium"}
+{"entity_id": "cent_011", "entity_type": "ContractualEntitlement", "tier": "EnterprisePlus"}
+{"entity_id": "cent_012", "entity_type": "ContractualEntitlement", "tier": "Basic"}
+{"entity_id": "cent_013", "entity_type": "ContractualEntitlement", "tier": "Standard"}
+{"entity_id": "cent_014", "entity_type": "ContractualEntitlement", "tier": "Premium"}
+{"entity_id": "cent_015", "entity_type": "ContractualEntitlement", "tier": "EnterprisePlus"}
+{"entity_id": "cent_016", "entity_type": "ContractualEntitlement", "tier": "Basic"}
+{"entity_id": "cent_017", "entity_type": "ContractualEntitlement", "tier": "Standard"}
+{"entity_id": "cent_018", "entity_type": "ContractualEntitlement", "tier": "Premium"}
+{"entity_id": "cent_019", "entity_type": "ContractualEntitlement", "tier": "EnterprisePlus"}
+{"entity_id": "cent_020", "entity_type": "ContractualEntitlement", "tier": "Basic"}
+{"entity_id": "cent_021", "entity_type": "ContractualEntitlement", "tier": "Standard"}
+{"entity_id": "cent_022", "entity_type": "ContractualEntitlement", "tier": "Premium"}
+{"entity_id": "cent_023", "entity_type": "ContractualEntitlement", "tier": "EnterprisePlus"}
+{"entity_id": "cent_024", "entity_type": "ContractualEntitlement", "tier": "Basic"}
+{"entity_id": "cent_025", "entity_type": "ContractualEntitlement", "tier": "Standard"}
+{"entity_id": "cent_026", "entity_type": "ContractualEntitlement", "tier": "Premium"}
+{"entity_id": "cent_027", "entity_type": "ContractualEntitlement", "tier": "EnterprisePlus"}
+{"entity_id": "cent_028", "entity_type": "ContractualEntitlement", "tier": "Basic"}
+{"entity_id": "cent_029", "entity_type": "ContractualEntitlement", "tier": "Standard"}
+{"entity_id": "cent_030", "entity_type": "ContractualEntitlement", "tier": "Premium"}
+{"entity_id": "sla_001", "entity_type": "SLAProfile", "tier": "Standard"}
+{"entity_id": "sla_002", "entity_type": "SLAProfile", "tier": "Premium"}
+{"entity_id": "sla_003", "entity_type": "SLAProfile", "tier": "EnterprisePlus"}
+{"entity_id": "sla_004", "entity_type": "SLAProfile", "tier": "Basic"}
+{"entity_id": "sla_005", "entity_type": "SLAProfile", "tier": "Standard"}
+{"entity_id": "sla_006", "entity_type": "SLAProfile", "tier": "Premium"}
+{"entity_id": "sla_007", "entity_type": "SLAProfile", "tier": "EnterprisePlus"}
+{"entity_id": "sla_008", "entity_type": "SLAProfile", "tier": "Basic"}
+{"entity_id": "sla_009", "entity_type": "SLAProfile", "tier": "Standard"}
+{"entity_id": "sla_010", "entity_type": "SLAProfile", "tier": "Premium"}
+{"entity_id": "sla_011", "entity_type": "SLAProfile", "tier": "EnterprisePlus"}
+{"entity_id": "sla_012", "entity_type": "SLAProfile", "tier": "Basic"}
+{"entity_id": "sla_013", "entity_type": "SLAProfile", "tier": "Standard"}
+{"entity_id": "sla_014", "entity_type": "SLAProfile", "tier": "Premium"}
+{"entity_id": "sla_015", "entity_type": "SLAProfile", "tier": "EnterprisePlus"}
+{"entity_id": "sla_016", "entity_type": "SLAProfile", "tier": "Basic"}
+{"entity_id": "sla_017", "entity_type": "SLAProfile", "tier": "Standard"}
+{"entity_id": "sla_018", "entity_type": "SLAProfile", "tier": "Premium"}
+{"entity_id": "sla_019", "entity_type": "SLAProfile", "tier": "EnterprisePlus"}
+{"entity_id": "sla_020", "entity_type": "SLAProfile", "tier": "Basic"}
+{"entity_id": "ticket_001", "entity_type": "SupportTicket", "severity": "medium"}
+{"entity_id": "ticket_002", "entity_type": "SupportTicket", "severity": "high"}
+{"entity_id": "ticket_003", "entity_type": "SupportTicket", "severity": "critical"}
+{"entity_id": "ticket_004", "entity_type": "SupportTicket", "severity": "low"}
+{"entity_id": "ticket_005", "entity_type": "SupportTicket", "severity": "medium"}
+{"entity_id": "ticket_006", "entity_type": "SupportTicket", "severity": "high"}
+{"entity_id": "ticket_007", "entity_type": "SupportTicket", "severity": "critical"}
+{"entity_id": "ticket_008", "entity_type": "SupportTicket", "severity": "low"}
+{"entity_id": "ticket_009", "entity_type": "SupportTicket", "severity": "medium"}
+{"entity_id": "ticket_010", "entity_type": "SupportTicket", "severity": "high"}
+{"entity_id": "ticket_011", "entity_type": "SupportTicket", "severity": "critical"}
+{"entity_id": "ticket_012", "entity_type": "SupportTicket", "severity": "low"}
+{"entity_id": "ticket_013", "entity_type": "SupportTicket", "severity": "medium"}
+{"entity_id": "ticket_014", "entity_type": "SupportTicket", "severity": "high"}
+{"entity_id": "ticket_015", "entity_type": "SupportTicket", "severity": "critical"}
+{"entity_id": "ticket_016", "entity_type": "SupportTicket", "severity": "low"}
+{"entity_id": "ticket_017", "entity_type": "SupportTicket", "severity": "medium"}
+{"entity_id": "ticket_018", "entity_type": "SupportTicket", "severity": "high"}
+{"entity_id": "ticket_019", "entity_type": "SupportTicket", "severity": "critical"}
+{"entity_id": "ticket_020", "entity_type": "SupportTicket", "severity": "low"}
+{"entity_id": "ticket_021", "entity_type": "SupportTicket", "severity": "medium"}
+{"entity_id": "ticket_022", "entity_type": "SupportTicket", "severity": "high"}
+{"entity_id": "ticket_023", "entity_type": "SupportTicket", "severity": "critical"}
+{"entity_id": "ticket_024", "entity_type": "SupportTicket", "severity": "low"}
+{"entity_id": "ticket_025", "entity_type": "SupportTicket", "severity": "medium"}
+{"entity_id": "ticket_026", "entity_type": "SupportTicket", "severity": "high"}
+{"entity_id": "ticket_027", "entity_type": "SupportTicket", "severity": "critical"}
+{"entity_id": "ticket_028", "entity_type": "SupportTicket", "severity": "low"}
+{"entity_id": "ticket_029", "entity_type": "SupportTicket", "severity": "medium"}
+{"entity_id": "ticket_030", "entity_type": "SupportTicket", "severity": "high"}
+{"entity_id": "ticket_031", "entity_type": "SupportTicket", "severity": "critical"}
+{"entity_id": "ticket_032", "entity_type": "SupportTicket", "severity": "low"}
+{"entity_id": "ticket_033", "entity_type": "SupportTicket", "severity": "medium"}
+{"entity_id": "ticket_034", "entity_type": "SupportTicket", "severity": "high"}
+{"entity_id": "ticket_035", "entity_type": "SupportTicket", "severity": "critical"}
+{"entity_id": "ticket_036", "entity_type": "SupportTicket", "severity": "low"}
+{"entity_id": "ticket_037", "entity_type": "SupportTicket", "severity": "medium"}
+{"entity_id": "ticket_038", "entity_type": "SupportTicket", "severity": "high"}
+{"entity_id": "ticket_039", "entity_type": "SupportTicket", "severity": "critical"}
+{"entity_id": "ticket_040", "entity_type": "SupportTicket", "severity": "low"}
+{"entity_id": "ticket_041", "entity_type": "SupportTicket", "severity": "medium"}
+{"entity_id": "ticket_042", "entity_type": "SupportTicket", "severity": "high"}
+{"entity_id": "ticket_043", "entity_type": "SupportTicket", "severity": "critical"}
+{"entity_id": "ticket_044", "entity_type": "SupportTicket", "severity": "low"}
+{"entity_id": "ticket_045", "entity_type": "SupportTicket", "severity": "medium"}
+{"entity_id": "ticket_046", "entity_type": "SupportTicket", "severity": "high"}
+{"entity_id": "ticket_047", "entity_type": "SupportTicket", "severity": "critical"}
+{"entity_id": "ticket_048", "entity_type": "SupportTicket", "severity": "low"}
+{"entity_id": "ticket_049", "entity_type": "SupportTicket", "severity": "medium"}
+{"entity_id": "ticket_050", "entity_type": "SupportTicket", "severity": "high"}
+{"entity_id": "ticket_051", "entity_type": "SupportTicket", "severity": "critical"}
+{"entity_id": "ticket_052", "entity_type": "SupportTicket", "severity": "low"}
+{"entity_id": "ticket_053", "entity_type": "SupportTicket", "severity": "medium"}
+{"entity_id": "ticket_054", "entity_type": "SupportTicket", "severity": "high"}
+{"entity_id": "ticket_055", "entity_type": "SupportTicket", "severity": "critical"}
+{"entity_id": "ticket_056", "entity_type": "SupportTicket", "severity": "low"}
+{"entity_id": "ticket_057", "entity_type": "SupportTicket", "severity": "medium"}
+{"entity_id": "ticket_058", "entity_type": "SupportTicket", "severity": "high"}
+{"entity_id": "ticket_059", "entity_type": "SupportTicket", "severity": "critical"}
+{"entity_id": "ticket_060", "entity_type": "SupportTicket", "severity": "low"}
+{"entity_id": "ticket_061", "entity_type": "SupportTicket", "severity": "medium"}
+{"entity_id": "ticket_062", "entity_type": "SupportTicket", "severity": "high"}
+{"entity_id": "ticket_063", "entity_type": "SupportTicket", "severity": "critical"}
+{"entity_id": "ticket_064", "entity_type": "SupportTicket", "severity": "low"}
+{"entity_id": "ticket_065", "entity_type": "SupportTicket", "severity": "medium"}
+{"entity_id": "ticket_066", "entity_type": "SupportTicket", "severity": "high"}
+{"entity_id": "ticket_067", "entity_type": "SupportTicket", "severity": "critical"}
+{"entity_id": "ticket_068", "entity_type": "SupportTicket", "severity": "low"}
+{"entity_id": "ticket_069", "entity_type": "SupportTicket", "severity": "medium"}
+{"entity_id": "ticket_070", "entity_type": "SupportTicket", "severity": "high"}
+{"entity_id": "ticket_071", "entity_type": "SupportTicket", "severity": "critical"}
+{"entity_id": "ticket_072", "entity_type": "SupportTicket", "severity": "low"}
+{"entity_id": "ticket_073", "entity_type": "SupportTicket", "severity": "medium"}
+{"entity_id": "ticket_074", "entity_type": "SupportTicket", "severity": "high"}
+{"entity_id": "ticket_075", "entity_type": "SupportTicket", "severity": "critical"}
+{"entity_id": "ticket_076", "entity_type": "SupportTicket", "severity": "low"}
+{"entity_id": "ticket_077", "entity_type": "SupportTicket", "severity": "medium"}
+{"entity_id": "ticket_078", "entity_type": "SupportTicket", "severity": "high"}
+{"entity_id": "ticket_079", "entity_type": "SupportTicket", "severity": "critical"}
+{"entity_id": "ticket_080", "entity_type": "SupportTicket", "severity": "low"}
+{"entity_id": "inc_001", "entity_type": "Incident"}
+{"entity_id": "inc_002", "entity_type": "Incident"}
+{"entity_id": "inc_003", "entity_type": "Incident"}
+{"entity_id": "inc_004", "entity_type": "Incident"}
+{"entity_id": "inc_005", "entity_type": "Incident"}
+{"entity_id": "inc_006", "entity_type": "Incident"}
+{"entity_id": "inc_007", "entity_type": "Incident"}
+{"entity_id": "inc_008", "entity_type": "Incident"}
+{"entity_id": "inc_009", "entity_type": "Incident"}
+{"entity_id": "inc_010", "entity_type": "Incident"}
+{"entity_id": "inc_011", "entity_type": "Incident"}
+{"entity_id": "inc_012", "entity_type": "Incident"}
+{"entity_id": "inc_013", "entity_type": "Incident"}
+{"entity_id": "inc_014", "entity_type": "Incident"}
+{"entity_id": "inc_015", "entity_type": "Incident"}
+{"entity_id": "inc_016", "entity_type": "Incident"}
+{"entity_id": "inc_017", "entity_type": "Incident"}
+{"entity_id": "inc_018", "entity_type": "Incident"}
+{"entity_id": "inc_019", "entity_type": "Incident"}
+{"entity_id": "inc_020", "entity_type": "Incident"}
+{"entity_id": "inc_021", "entity_type": "Incident"}
+{"entity_id": "inc_022", "entity_type": "Incident"}
+{"entity_id": "inc_023", "entity_type": "Incident"}
+{"entity_id": "inc_024", "entity_type": "Incident"}
+{"entity_id": "inc_025", "entity_type": "Incident"}
+{"amount_band": "medium", "entity_id": "refund_001", "entity_type": "RefundRequest"}
+{"amount_band": "high", "entity_id": "refund_002", "entity_type": "RefundRequest"}
+{"amount_band": "low", "entity_id": "refund_003", "entity_type": "RefundRequest"}
+{"amount_band": "medium", "entity_id": "refund_004", "entity_type": "RefundRequest"}
+{"amount_band": "high", "entity_id": "refund_005", "entity_type": "RefundRequest"}
+{"amount_band": "low", "entity_id": "refund_006", "entity_type": "RefundRequest"}
+{"amount_band": "medium", "entity_id": "refund_007", "entity_type": "RefundRequest"}
+{"amount_band": "high", "entity_id": "refund_008", "entity_type": "RefundRequest"}
+{"amount_band": "low", "entity_id": "refund_009", "entity_type": "RefundRequest"}
+{"amount_band": "medium", "entity_id": "refund_010", "entity_type": "RefundRequest"}
+{"amount_band": "high", "entity_id": "refund_011", "entity_type": "RefundRequest"}
+{"amount_band": "low", "entity_id": "refund_012", "entity_type": "RefundRequest"}
+{"amount_band": "medium", "entity_id": "refund_013", "entity_type": "RefundRequest"}
+{"amount_band": "high", "entity_id": "refund_014", "entity_type": "RefundRequest"}
+{"amount_band": "low", "entity_id": "refund_015", "entity_type": "RefundRequest"}
+{"amount_band": "medium", "entity_id": "refund_016", "entity_type": "RefundRequest"}
+{"amount_band": "high", "entity_id": "refund_017", "entity_type": "RefundRequest"}
+{"amount_band": "low", "entity_id": "refund_018", "entity_type": "RefundRequest"}
+{"amount_band": "medium", "entity_id": "refund_019", "entity_type": "RefundRequest"}
+{"amount_band": "high", "entity_id": "refund_020", "entity_type": "RefundRequest"}
+{"amount_band": "low", "entity_id": "refund_021", "entity_type": "RefundRequest"}
+{"amount_band": "medium", "entity_id": "refund_022", "entity_type": "RefundRequest"}
+{"amount_band": "high", "entity_id": "refund_023", "entity_type": "RefundRequest"}
+{"amount_band": "low", "entity_id": "refund_024", "entity_type": "RefundRequest"}
+{"amount_band": "medium", "entity_id": "refund_025", "entity_type": "RefundRequest"}
+{"amount_band": "high", "entity_id": "refund_026", "entity_type": "RefundRequest"}
+{"amount_band": "low", "entity_id": "refund_027", "entity_type": "RefundRequest"}
+{"amount_band": "medium", "entity_id": "refund_028", "entity_type": "RefundRequest"}
+{"amount_band": "high", "entity_id": "refund_029", "entity_type": "RefundRequest"}
+{"amount_band": "low", "entity_id": "refund_030", "entity_type": "RefundRequest"}
+{"amount_band": "medium", "entity_id": "refund_031", "entity_type": "RefundRequest"}
+{"amount_band": "high", "entity_id": "refund_032", "entity_type": "RefundRequest"}
+{"amount_band": "low", "entity_id": "refund_033", "entity_type": "RefundRequest"}
+{"amount_band": "medium", "entity_id": "refund_034", "entity_type": "RefundRequest"}
+{"amount_band": "high", "entity_id": "refund_035", "entity_type": "RefundRequest"}
+{"amount_band": "low", "entity_id": "refund_036", "entity_type": "RefundRequest"}
+{"amount_band": "medium", "entity_id": "refund_037", "entity_type": "RefundRequest"}
+{"amount_band": "high", "entity_id": "refund_038", "entity_type": "RefundRequest"}
+{"amount_band": "low", "entity_id": "refund_039", "entity_type": "RefundRequest"}
+{"amount_band": "medium", "entity_id": "refund_040", "entity_type": "RefundRequest"}
+{"entity_id": "case_001", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_002", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_003", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_004", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_005", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_006", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_007", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_008", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_009", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_010", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_011", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_012", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_013", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_014", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_015", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_016", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_017", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_018", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_019", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_020", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_021", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_022", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_023", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_024", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_025", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_026", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_027", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_028", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_029", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_030", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_031", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_032", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_033", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_034", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_035", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_036", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_037", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_038", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_039", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_040", "entity_type": "WorkflowCase", "workflow_type": "refund_workflow"}
+{"entity_id": "case_041", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_042", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_043", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_044", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_045", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_046", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_047", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_048", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_049", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_050", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_051", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_052", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_053", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_054", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_055", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_056", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_057", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_058", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_059", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_060", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_061", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_062", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_063", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_064", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_065", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_066", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_067", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_068", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_069", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_070", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_071", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_072", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_073", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_074", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_075", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_076", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_077", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_078", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_079", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_080", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_081", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_082", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_083", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_084", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_085", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_086", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_087", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_088", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_089", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_090", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_091", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_092", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_093", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_094", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_095", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_096", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_097", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_098", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_099", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_100", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_101", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_102", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_103", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_104", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_105", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_106", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_107", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_108", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_109", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_110", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_111", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_112", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_113", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_114", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_115", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_116", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_117", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_118", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_119", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "case_120", "entity_type": "WorkflowCase", "workflow_type": "support_escalation_workflow"}
+{"entity_id": "policy_001", "entity_type": "Policy", "family": "refund"}
+{"entity_id": "policy_002", "entity_type": "Policy", "family": "refund"}
+{"entity_id": "policy_003", "entity_type": "Policy", "family": "refund"}
+{"entity_id": "policy_004", "entity_type": "Policy", "family": "refund"}
+{"entity_id": "policy_005", "entity_type": "Policy", "family": "sla"}
+{"entity_id": "policy_006", "entity_type": "Policy", "family": "sla"}
+{"entity_id": "policy_007", "entity_type": "Policy", "family": "sla"}
+{"entity_id": "policy_008", "entity_type": "Policy", "family": "sla"}
+{"code": "NA", "entity_id": "region_NA", "entity_type": "Region"}
+{"code": "EU", "entity_id": "region_EU", "entity_type": "Region"}
+{"code": "APAC", "entity_id": "region_APAC", "entity_type": "Region"}
+{"code": "LATAM", "entity_id": "region_LATAM", "entity_type": "Region"}
+{"code": "MEA", "entity_id": "region_MEA", "entity_type": "Region"}
+{"code": "ANZ", "entity_id": "region_ANZ", "entity_type": "Region"}
+{"entity_id": "owner_001", "entity_type": "AccountOwner"}
+{"entity_id": "owner_002", "entity_type": "AccountOwner"}
+{"entity_id": "owner_003", "entity_type": "AccountOwner"}
+{"entity_id": "owner_004", "entity_type": "AccountOwner"}
+{"entity_id": "owner_005", "entity_type": "AccountOwner"}
+{"entity_id": "owner_006", "entity_type": "AccountOwner"}
+{"entity_id": "owner_007", "entity_type": "AccountOwner"}
+{"entity_id": "owner_008", "entity_type": "AccountOwner"}
+{"entity_id": "owner_009", "entity_type": "AccountOwner"}
+{"entity_id": "owner_010", "entity_type": "AccountOwner"}
+{"entity_id": "owner_011", "entity_type": "AccountOwner"}
+{"entity_id": "owner_012", "entity_type": "AccountOwner"}
+{"entity_id": "owner_013", "entity_type": "AccountOwner"}
+{"entity_id": "owner_014", "entity_type": "AccountOwner"}
+{"entity_id": "owner_015", "entity_type": "AccountOwner"}
+{"entity_id": "owner_016", "entity_type": "AccountOwner"}
+{"entity_id": "owner_017", "entity_type": "AccountOwner"}
+{"entity_id": "owner_018", "entity_type": "AccountOwner"}
+{"entity_id": "owner_019", "entity_type": "AccountOwner"}
+{"entity_id": "owner_020", "entity_type": "AccountOwner"}
+{"entity_id": "prod_001", "entity_type": "Product"}
+{"entity_id": "prod_002", "entity_type": "Product"}
+{"entity_id": "prod_003", "entity_type": "Product"}
+{"entity_id": "prod_004", "entity_type": "Product"}
+{"entity_id": "prod_005", "entity_type": "Product"}
+{"entity_id": "prod_006", "entity_type": "Product"}
+{"entity_id": "prod_007", "entity_type": "Product"}
+{"entity_id": "prod_008", "entity_type": "Product"}
+{"entity_id": "profile_Basic", "entity_type": "EntitlementProfile", "value": "Basic"}
+{"entity_id": "profile_Standard", "entity_type": "EntitlementProfile", "value": "Standard"}
+{"entity_id": "profile_Premium", "entity_type": "EntitlementProfile", "value": "Premium"}
+{"entity_id": "profile_EnterprisePlus", "entity_type": "EntitlementProfile", "value": "EnterprisePlus"}

@@ -1,0 +1,91 @@
+{
+  "states": [
+    "opened",
+    "triaged",
+    "waiting_on_customer",
+    "escalated",
+    "resolved",
+    "closed",
+    "reopened"
+  ],
+  "transitions": [
+    {
+      "action": "triage_ticket",
+      "from": "opened",
+      "guard": {
+        "equals": [
+          "workflow_state",
+          "opened"
+        ]
+      },
+      "to": "triaged"
+    },
+    {
+      "action": "request_customer_info",
+      "from": "triaged",
+      "guard": {
+        "equals": [
+          "workflow_state",
+          "triaged"
+        ]
+      },
+      "to": "waiting_on_customer"
+    },
+    {
+      "action": "escalate_ticket",
+      "from": "triaged",
+      "guard": {
+        "equals": [
+          "workflow_state",
+          "triaged"
+        ]
+      },
+      "to": "escalated"
+    },
+    {
+      "action": "receive_customer_info",
+      "from": "waiting_on_customer",
+      "guard": {
+        "equals": [
+          "workflow_state",
+          "waiting_on_customer"
+        ]
+      },
+      "to": "triaged"
+    },
+    {
+      "action": "resolve_ticket",
+      "from": "escalated",
+      "guard": {
+        "equals": [
+          "workflow_state",
+          "escalated"
+        ]
+      },
+      "to": "resolved"
+    },
+    {
+      "action": "close_ticket",
+      "from": "resolved",
+      "guard": {
+        "equals": [
+          "workflow_state",
+          "resolved"
+        ]
+      },
+      "to": "closed"
+    },
+    {
+      "action": "reopen_ticket",
+      "from": "closed",
+      "guard": {
+        "equals": [
+          "workflow_state",
+          "closed"
+        ]
+      },
+      "to": "reopened"
+    }
+  ],
+  "workflow_type": "support_escalation_workflow"
+}

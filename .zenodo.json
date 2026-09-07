@@ -1,0 +1,23 @@
+{
+  "title": "Lifecycle-Governed Retrieval and EvoMem-Enterprise Artifact",
+  "version": "3.0.0-rc2",
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Ravuru, Amith Reddy",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "keywords": [
+    "knowledge graphs",
+    "retrieval-augmented generation",
+    "lifecycle governance",
+    "action admission",
+    "provenance",
+    "ontology evolution",
+    "bitemporal data"
+  ],
+  "description": "Reference implementation, generated benchmark worlds (EvoMem-Enterprise), validation-only label checkers, conformance and mutation tests, a standalone composed comparator, and raw evaluation outputs accompanying the lifecycle-governed retrieval manuscript. The archive reproduces every reported accuracy metric from a clean extraction; wall-clock latency fields are machine-dependent. Released as a design-and-pilot artifact, not a production-safety validation."
+}

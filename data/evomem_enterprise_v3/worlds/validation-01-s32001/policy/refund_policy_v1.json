@@ -1,0 +1,43 @@
+{
+  "rules": [
+    {
+      "action": "issue_refund",
+      "guard": {
+        "and": [
+          {
+            "equals": [
+              "support_entitlement",
+              "EnterprisePlus"
+            ]
+          },
+          {
+            "in": [
+              "refund_amount",
+              [
+                "low",
+                "medium"
+              ]
+            ]
+          }
+        ]
+      },
+      "permit_or_deny": "permit",
+      "policy_family": "refund",
+      "policy_version": "refund_policy_v1",
+      "priority": 10
+    },
+    {
+      "action": "request_manager_approval",
+      "guard": {
+        "equals": [
+          "support_entitlement",
+          "Basic"
+        ]
+      },
+      "permit_or_deny": "permit",
+      "policy_family": "refund",
+      "policy_version": "refund_policy_v1",
+      "priority": 5
+    }
+  ]
+}

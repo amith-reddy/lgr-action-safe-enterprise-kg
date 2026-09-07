@@ -1,0 +1,368 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "action_support_by_action": {
+      "additionalProperties": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "type": "object"
+    },
+    "append_log_checkpoint": {
+      "type": "integer"
+    },
+    "audit_trace": {
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "bindings_consulted": {
+      "additionalProperties": {
+        "type": "object"
+      },
+      "type": "object"
+    },
+    "blocked_action_reasons": {
+      "additionalProperties": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "type": "object"
+    },
+    "conflict_trace": {
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "decision_evidence_assertion_ids": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "decision_evidence_count": {
+      "type": "integer"
+    },
+    "decision_evidence_status": {
+      "type": "string"
+    },
+    "feature_mask": {
+      "additionalProperties": false,
+      "properties": {
+        "current_workflow_state_visible_to_llm": {
+          "type": "boolean"
+        },
+        "gold_fields_visible": {
+          "type": "boolean"
+        },
+        "mask_version": {
+          "type": "string"
+        },
+        "oracle_fields_visible": {
+          "type": "boolean"
+        },
+        "use_contradiction_resolver": {
+          "type": "boolean"
+        },
+        "use_conflict_trust": {
+          "type": "boolean"
+        },
+        "use_action_target_binding": {
+          "type": "boolean"
+        },
+        "use_lifecycle_state": {
+          "type": "boolean"
+        },
+        "use_record_visibility": {
+          "type": "boolean"
+        },
+        "use_ontology_versioning": {
+          "type": "boolean"
+        },
+        "use_policy_versioning": {
+          "type": "boolean"
+        },
+        "use_provenance_trust": {
+          "type": "boolean"
+        },
+        "use_provenance_activity": {
+          "type": "boolean"
+        },
+        "use_source_eligibility": {
+          "type": "boolean"
+        },
+        "use_supersession_links": {
+          "type": "boolean"
+        },
+        "use_validity_interval": {
+          "type": "boolean"
+        },
+        "use_workflow_state_binding": {
+          "type": "boolean"
+        },
+        "use_workflow_instance_scope": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "mask_version",
+        "oracle_fields_visible",
+        "gold_fields_visible",
+        "current_workflow_state_visible_to_llm",
+        "use_lifecycle_state",
+        "use_validity_interval",
+        "use_record_visibility",
+        "use_provenance_trust",
+        "use_provenance_activity",
+        "use_source_eligibility",
+        "use_ontology_versioning",
+        "use_policy_versioning",
+        "use_supersession_links",
+        "use_contradiction_resolver",
+        "use_conflict_trust",
+        "use_workflow_state_binding",
+        "use_workflow_instance_scope",
+        "use_action_target_binding"
+      ],
+      "type": "object"
+    },
+    "initial_retrieval_budget": {
+      "type": "integer"
+    },
+    "initial_retrieved_assertion_ids": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "method": {
+      "type": "string"
+    },
+    "packet_id": {
+      "type": "string"
+    },
+    "predicted_blocked_actions": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "predicted_valid_actions": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "provenance_trace": {
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "query_relevant_candidate_count": {
+      "type": "integer"
+    },
+    "retrieval_latency_ms": {
+      "type": "number"
+    },
+    "retrieved_assertion_ids": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "retrieved_assertions": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "assertion_id": {
+            "type": "string"
+          },
+          "assertion_type": {
+            "type": "string"
+          },
+          "contradiction_group": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "entity_scope": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "event_time": {
+            "type": "string"
+          },
+          "lifecycle_state": {
+            "type": "string"
+          },
+          "object": {
+            "type": [
+              "string",
+              "number",
+              "boolean",
+              "null"
+            ]
+          },
+          "ontology_version": {
+            "type": "string"
+          },
+          "policy_version": {
+            "type": "string"
+          },
+          "predicate": {
+            "type": "string"
+          },
+          "provenance_activity": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "record_time": {
+            "type": "string"
+          },
+          "source": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "subject": {
+            "type": "string"
+          },
+          "superseded_by": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "supersedes": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "trust_class": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "valid_from": {
+            "type": "string"
+          },
+          "valid_until": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "workflow_instance_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "workflow_state_binding": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "assertion_id",
+          "subject",
+          "predicate",
+          "object",
+          "assertion_type",
+          "event_time",
+          "record_time"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "snapshot_id": {
+      "type": "string"
+    },
+    "split": {
+      "type": "string"
+    },
+    "suppressed_assertion_ids": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "suppression_reason_lists": {
+      "additionalProperties": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "type": "object"
+    },
+    "suppression_reasons": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "type": "object"
+    },
+    "task_id": {
+      "type": "string"
+    },
+    "token_count_estimate": {
+      "type": "integer"
+    },
+    "unresolved_conflicts": {
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "packet_id",
+    "task_id",
+    "split",
+    "method",
+    "feature_mask",
+    "retrieved_assertion_ids",
+    "retrieved_assertions",
+    "suppressed_assertion_ids",
+    "predicted_valid_actions",
+    "predicted_blocked_actions",
+    "suppression_reasons",
+    "suppression_reason_lists",
+    "action_support_by_action",
+    "blocked_action_reasons",
+    "bindings_consulted",
+    "unresolved_conflicts",
+    "conflict_trace",
+    "provenance_trace",
+    "audit_trace",
+    "snapshot_id",
+    "append_log_checkpoint",
+    "query_relevant_candidate_count",
+    "token_count_estimate",
+    "retrieval_latency_ms",
+    "initial_retrieved_assertion_ids",
+    "decision_evidence_assertion_ids",
+    "decision_evidence_status",
+    "initial_retrieval_budget",
+    "decision_evidence_count"
+  ],
+  "type": "object"
+}

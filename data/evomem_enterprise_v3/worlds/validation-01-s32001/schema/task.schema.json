@@ -1,0 +1,16 @@
+{
+  "additionalProperties": true,
+  "required": [
+    "task_id",
+    "task_type",
+    "natural_language_question",
+    "decision_time",
+    "entity_scope",
+    "target_ontology_version",
+    "target_policy_version",
+    "retrieval_mode",
+    "candidate_actions",
+    "assertion_templates"
+  ],
+  "type": "object"
+}

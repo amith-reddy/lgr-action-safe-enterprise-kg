@@ -1,0 +1,56 @@
+{
+  "rules": [
+    {
+      "action": "escalate_ticket",
+      "guard": {
+        "and": [
+          {
+            "equals": [
+              "ticket_severity",
+              "critical"
+            ]
+          },
+          {
+            "in": [
+              "support_entitlement",
+              [
+                "Premium",
+                "EnterprisePlus"
+              ]
+            ]
+          }
+        ]
+      },
+      "permit_or_deny": "permit",
+      "policy_family": "sla",
+      "policy_version": "sla_policy_v2",
+      "priority": 10
+    },
+    {
+      "action": "request_customer_info",
+      "guard": {
+        "equals": [
+          "workflow_state",
+          "triaged"
+        ]
+      },
+      "permit_or_deny": "permit",
+      "policy_family": "sla",
+      "policy_version": "sla_policy_v2",
+      "priority": 5
+    },
+    {
+      "action": "resolve_ticket",
+      "guard": {
+        "equals": [
+          "workflow_state",
+          "escalated"
+        ]
+      },
+      "permit_or_deny": "permit",
+      "policy_family": "sla",
+      "policy_version": "sla_policy_v2",
+      "priority": 5
+    }
+  ]
+}
