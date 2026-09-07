@@ -41,6 +41,7 @@ INCLUDE_DIRS = (
 )
 INCLUDE_FILES = (
     "LICENSE",
+    "LICENSE-DATA",
     ".zenodo.json",
     "submission/ickg_lgr_2026/ickg_lgr.tex",
     "submission/ickg_lgr_2026/ickg_lgr.pdf",
@@ -169,14 +170,15 @@ def main() -> int:
         "status": "pass"
         if manifest_ok and reproduction["returncode"] == 0 and reproduction["reported_status"] == "pass"
         else "fail",
-        "archive": str(output),
+        # Name only: an absolute path would leak the builder's local layout.
+        "archive": output.name,
         "archive_sha256": digest(output),
         "archive_bytes": output.stat().st_size,
         "manifest_entries": len(manifest),
         "manifest_verified_after_clean_extraction": manifest_ok,
         "manifest_mismatches": mismatches,
         "frozen_release_reproduction_after_clean_extraction": reproduction,
-        "license": "MIT (code and benchmark data); see LICENSE at the package root",
+        "license": "MIT throughout: code under LICENSE, generated benchmark data and recorded outputs under LICENSE-DATA, both at the package root; manuscript sources under submission/ are not covered by either",
         "doi_status": "no DOI claimed; .zenodo.json is prepared for deposit but the archive has not been deposited",
     }
     args.report.write_text(json.dumps(report, indent=2, sort_keys=True) + "\n", encoding="utf-8")

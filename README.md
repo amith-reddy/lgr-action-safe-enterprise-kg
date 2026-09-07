@@ -197,6 +197,14 @@ deterministic proxy, not model outputs. See Section VII of the manuscript.
 
 ## License and citation
 
-MIT, for both the code and the generated benchmark data — see [LICENSE](LICENSE).
+MIT throughout. The code is covered by [LICENSE](LICENSE); the generated
+benchmark data under `data/` and the recorded outputs under `experiments/` are
+covered by [LICENSE-DATA](LICENSE-DATA), on the same MIT terms. Keeping the two
+separate lets `LICENSE` stay verbatim MIT, which is what automated license
+detection matches against.
+
+The manuscript sources under `submission/` are not covered by either file; the
+author retains all rights in them.
+
 Citation metadata is in [CITATION.cff](CITATION.cff); `.zenodo.json` is prepared
 for an archival deposit that has not yet been made. No DOI is claimed.

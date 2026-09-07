@@ -1,15 +1,15 @@
 {
   "archive": "lgr_jws_artifact_rc2.tar.gz",
-  "archive_bytes": 20558328,
-  "archive_sha256": "944826dd4c7cdd4969151aa133479cdd54b0012963f69b03bfa7004768dbd527",
+  "archive_bytes": 20556540,
+  "archive_sha256": "078ba49294156cd67399486c9774ee77fc6bf9f281bc3fae6f797b0412e6b216",
   "doi_status": "no DOI claimed; .zenodo.json is prepared for deposit but the archive has not been deposited",
   "frozen_release_reproduction_after_clean_extraction": {
     "reported_status": "pass",
     "returncode": 0,
     "stderr_tail": ""
   },
-  "license": "MIT (code and benchmark data); see LICENSE at the package root",
-  "manifest_entries": 1129,
+  "license": "MIT throughout: code under LICENSE, generated benchmark data and recorded outputs under LICENSE-DATA, both at the package root; manuscript sources under submission/ are not covered by either",
+  "manifest_entries": 1130,
   "manifest_mismatches": [],
   "manifest_verified_after_clean_extraction": true,
   "package_root": "lgr-jws-artifact-3.0.0-rc2",

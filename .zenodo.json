@@ -19,5 +19,6 @@
     "ontology evolution",
     "bitemporal data"
   ],
-  "description": "Reference implementation, generated benchmark worlds (EvoMem-Enterprise), validation-only label checkers, conformance and mutation tests, a standalone composed comparator, and raw evaluation outputs accompanying the lifecycle-governed retrieval manuscript. The archive reproduces every reported accuracy metric from a clean extraction; wall-clock latency fields are machine-dependent. Released as a design-and-pilot artifact, not a production-safety validation."
+  "description": "Reference implementation, generated benchmark worlds (EvoMem-Enterprise), validation-only label checkers, conformance and mutation tests, a standalone composed comparator, and raw evaluation outputs accompanying the lifecycle-governed retrieval manuscript. The archive reproduces every reported accuracy metric from a clean extraction; wall-clock latency fields are machine-dependent. Released as a design-and-pilot artifact, not a production-safety validation.",
+  "notes": "Code is licensed under LICENSE; the generated benchmark data and recorded evaluation outputs under LICENSE-DATA. Both are MIT terms. Manuscript sources under submission/ are not covered by either."
 }

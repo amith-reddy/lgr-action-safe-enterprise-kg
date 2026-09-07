@@ -1,0 +1,40 @@
+MIT License — EvoMem-Enterprise benchmark data
+
+This file covers the generated benchmark data distributed with this repository,
+which the software license in LICENSE does not itself name. The terms are the
+same MIT terms; only the subject matter differs.
+
+Scope: everything under `data/` — the frozen EvoMem-Enterprise pilot world and
+all fifteen multiworld worlds, including their configuration, ontology, policy,
+workflow, and schema files, generated assertion events, tasks, and gold labels —
+together with the recorded evaluation outputs under `experiments/`.
+
+All of this material is synthetic. It is produced by
+`scripts/generate_evomem_enterprise.py` from fixed seeds and contains no real
+customer, personal, or proprietary data.
+
+The manuscript sources under `submission/` are not covered by this file or by
+LICENSE; the author retains all rights in them, subject to any agreement with
+the publisher.
+
+---
+
+Copyright (c) 2026 Amith Reddy Ravuru
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this data and associated documentation files (the "Data"), to deal
+in the Data without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Data, and to permit persons to whom the Data is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Data.
+
+THE DATA IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE DATA OR THE USE OR OTHER DEALINGS IN THE
+DATA.

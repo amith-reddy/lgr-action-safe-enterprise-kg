@@ -3,7 +3,7 @@
 Release candidate: `evomem-enterprise-v3.0.0-rc2`
 
 - [x] Select and add a code license. MIT; see `LICENSE` at the package root.
-- [x] Select and add a benchmark/data license. MIT, the same license as the code; the one `LICENSE` file covers the software and the generated benchmark data.
+- [x] Select and add a benchmark/data license. MIT, the same terms as the code, in a separate `LICENSE-DATA` file. `LICENSE` is kept as verbatim MIT so automated license detection recognizes the repository; `LICENSE-DATA` names the generated benchmark data and recorded outputs as its subject.
 - [ ] Freeze the manuscript commit or source-archive hash.
 - [x] Run `python3 scripts/reproduce_lgr_release.py --force` against the frozen release.
 - [x] Confirm frozen source hashes are unchanged.
@@ -14,7 +14,7 @@ Release candidate: `evomem-enterprise-v3.0.0-rc2`
 - [ ] Replace every pending repository/DOI marker in the manuscript and data-availability statement.
 - [ ] Link any SSRN preprint to the final journal DOI after acceptance.
 
-Licenses are now selected (MIT, code and data). No public repository or DOI is claimed until the corresponding item is completed.
+Licenses are now selected (MIT for code in `LICENSE`, MIT for benchmark data in `LICENSE-DATA`). No public repository or DOI is claimed until the corresponding item is completed.
 
 Verified release-candidate archive: `lgr_jws_artifact_rc2.tar.gz`.
 `artifact_archive_report_rc2.json` records its size and SHA-256 digest, a
