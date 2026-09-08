@@ -206,5 +206,6 @@ detection matches against.
 The manuscript sources under `submission/` are not covered by either file; the
 author retains all rights in them.
 
-Citation metadata is in [CITATION.cff](CITATION.cff); `.zenodo.json` is prepared
-for an archival deposit that has not yet been made. No DOI is claimed.
+Citation metadata is in [CITATION.cff](CITATION.cff). The archival release is
+deposited at [doi:10.5281/zenodo.22651556](https://doi.org/10.5281/zenodo.22651556), which is the
+identifier to cite for the results reported in the manuscript.

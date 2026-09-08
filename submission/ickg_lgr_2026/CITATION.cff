@@ -6,7 +6,7 @@ version: "3.0.0"
 license: MIT
 repository-code: "https://github.com/amith-reddy/lgr-action-safe-enterprise-kg"
 commit: e5880f969cb1c97834614097135981f59a4172b4
-# doi: added once the reserved Zenodo DOI is published
+doi: 10.5281/zenodo.22651556
 date-released: 2026-09-05
 authors:
   - family-names: "Ravuru"

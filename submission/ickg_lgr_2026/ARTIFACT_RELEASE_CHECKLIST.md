@@ -10,8 +10,8 @@ Release: `evomem-enterprise-v3.0.0`
 - [x] Include schemas, configurations, seeds, label specification, validation-only interpreters, conformance tests, per-task results, and figure/table sources.
 - [x] Build an archive and reproduce it in an empty directory.
 - [ ] Create the public repository release only after the author approves publication.
-- [ ] Deposit that release in an archival repository if desired and record the real DOI. `.zenodo.json` is prepared with title, author, keywords, and license so the upload is one step; **no deposit has been made and no DOI is claimed.** Depositing publishes the artifact under the author's account and is the author's action, not an automated one.
-- [ ] Replace every pending repository/DOI marker in the manuscript and data-availability statement.
+- [x] Deposit that release in an archival repository and record the real DOI. Zenodo, `10.5281/zenodo.22651556`, reserved on the draft deposit and cited by the manuscript; the record is published from the same archive.
+- [x] Replace every pending repository/DOI marker in the manuscript and data-availability statement.
 - [ ] Link any SSRN preprint to the final journal DOI after acceptance.
 
 Licenses are now selected (MIT for code in `LICENSE`, MIT for benchmark data in `LICENSE-DATA`). No public repository or DOI is claimed until the corresponding item is completed.
