@@ -1,7 +1,7 @@
 {
   "archive": "lgr_jws_artifact_rc2.tar.gz",
-  "archive_bytes": 20556540,
-  "archive_sha256": "078ba49294156cd67399486c9774ee77fc6bf9f281bc3fae6f797b0412e6b216",
+  "archive_bytes": 20545415,
+  "archive_sha256": "6a87f37991c317bf73cfebfb32878e52612ca17a37688eb5b991288a3fe73546",
   "doi_status": "no DOI claimed; .zenodo.json is prepared for deposit but the archive has not been deposited",
   "frozen_release_reproduction_after_clean_extraction": {
     "reported_status": "pass",
