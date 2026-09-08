@@ -1,6 +1,6 @@
 {
   "title": "Lifecycle-Governed Retrieval and EvoMem-Enterprise Artifact",
-  "version": "3.0.0-rc2",
+  "version": "3.0.0",
   "upload_type": "software",
   "license": "MIT",
   "access_right": "open",
@@ -23,7 +23,7 @@
   "notes": "Code is licensed under LICENSE; the generated benchmark data and recorded evaluation outputs under LICENSE-DATA. Both are MIT terms. Manuscript sources under submission/ are not covered by either.",
   "related_identifiers": [
     {
-      "identifier": "https://github.com/amith-reddy/lgr-action-safe-enterprise-kg/tree/v3.0.0-rc2",
+      "identifier": "https://github.com/amith-reddy/lgr-action-safe-enterprise-kg/tree/v3.0.0",
       "relation": "isSupplementTo",
       "scheme": "url"
     }

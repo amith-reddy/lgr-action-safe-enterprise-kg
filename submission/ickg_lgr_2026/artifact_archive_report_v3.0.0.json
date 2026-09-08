@@ -1,7 +1,7 @@
 {
-  "archive": "lgr_jws_artifact_rc2.tar.gz",
-  "archive_bytes": 20545415,
-  "archive_sha256": "6a87f37991c317bf73cfebfb32878e52612ca17a37688eb5b991288a3fe73546",
+  "archive": "lgr_jws_artifact_v3.0.0.tar.gz",
+  "archive_bytes": 20542965,
+  "archive_sha256": "b6a2ad79edd93a9a9c9538b42eb3a856c142e6557fcde63dd07b4174d028c254",
   "doi_status": "no DOI claimed; .zenodo.json is prepared for deposit but the archive has not been deposited",
   "frozen_release_reproduction_after_clean_extraction": {
     "reported_status": "pass",
@@ -12,7 +12,7 @@
   "manifest_entries": 1130,
   "manifest_mismatches": [],
   "manifest_verified_after_clean_extraction": true,
-  "package_root": "lgr-jws-artifact-3.0.0-rc2",
-  "release_candidate": "rc2",
+  "package_root": "lgr-jws-artifact-3.0.0",
+  "release_candidate": "final",
   "status": "pass"
 }

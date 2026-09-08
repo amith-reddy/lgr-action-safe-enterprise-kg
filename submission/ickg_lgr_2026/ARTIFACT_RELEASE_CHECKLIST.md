@@ -1,6 +1,6 @@
 # Artifact release checklist
 
-Release candidate: `evomem-enterprise-v3.0.0-rc2`
+Release: `evomem-enterprise-v3.0.0`
 
 - [x] Select and add a code license. MIT; see `LICENSE` at the package root.
 - [x] Select and add a benchmark/data license. MIT, the same terms as the code, in a separate `LICENSE-DATA` file. `LICENSE` is kept as verbatim MIT so automated license detection recognizes the repository; `LICENSE-DATA` names the generated benchmark data and recorded outputs as its subject.
@@ -16,13 +16,13 @@ Release candidate: `evomem-enterprise-v3.0.0-rc2`
 
 Licenses are now selected (MIT for code in `LICENSE`, MIT for benchmark data in `LICENSE-DATA`). No public repository or DOI is claimed until the corresponding item is completed.
 
-Verified release-candidate archive: `lgr_jws_artifact_rc2.tar.gz`.
-`artifact_archive_report_rc2.json` records its size and SHA-256 digest, a
+Verified release archive: `lgr_jws_artifact_v3.0.0.tar.gz`.
+`artifact_archive_report_v3.0.0.json` records its size and SHA-256 digest, a
 clean-extraction manifest check, and a successful frozen-release reproduction.
 Rebuild the archive after selecting licenses or changing any included file:
 
 ```
-python3 scripts/build_lgr_artifact.py --release-candidate rc2 --force
+python3 scripts/build_lgr_artifact.py --release-candidate final --force
 ```
 
 ## Release history
@@ -32,8 +32,9 @@ unchanged for provenance. **Do not distribute it:** it packages the pre-review
 code, in which two independent cross-checks were weaker than the operator they
 corroborate. Cite and distribute `rc2`.
 
-`rc2` supersedes `rc1` with three review corrections, all covered by new
-regression tests:
+`v3.0.0` is the archival release, built from the same tree as `rc2` and
+carrying the ten-page manuscript. It supersedes `rc1` with three review
+corrections, all covered by new regression tests:
 
 1. The composed comparator and the action-label interpreter now enforce the
    workflow-membership source restriction themselves, instead of accepting any

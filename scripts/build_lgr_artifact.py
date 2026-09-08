@@ -17,19 +17,28 @@ ROOT = Path(__file__).resolve().parents[1]
 SUBMISSION = ROOT / "submission" / "ickg_lgr_2026"
 VERSION = "3.0.0"
 DEFAULT_CANDIDATE = "rc1"
+# Sentinel for a final, non-candidate release: names drop the rc suffix.
+FINAL = "final"
 
 
 def archive_path(candidate: str) -> Path:
-    return SUBMISSION / f"lgr_jws_artifact_{candidate}.tar.gz"
+    stem = f"v{VERSION}" if candidate == FINAL else candidate
+    return SUBMISSION / f"lgr_jws_artifact_{stem}.tar.gz"
 
 
 def report_path(candidate: str) -> Path:
-    suffix = "" if candidate == DEFAULT_CANDIDATE else f"_{candidate}"
+    if candidate == DEFAULT_CANDIDATE:
+        suffix = ""
+    elif candidate == FINAL:
+        suffix = f"_v{VERSION}"
+    else:
+        suffix = f"_{candidate}"
     return SUBMISSION / f"artifact_archive_report{suffix}.json"
 
 
 def package_name(candidate: str) -> str:
-    return f"lgr-jws-artifact-{VERSION}-{candidate}"
+    """Package root for a release. A final release carries no candidate suffix."""
+    return f"lgr-jws-artifact-{VERSION}" if candidate == FINAL else f"lgr-jws-artifact-{VERSION}-{candidate}"
 
 INCLUDE_DIRS = (
     "scripts",
@@ -131,7 +140,7 @@ def main() -> int:
     parser.add_argument(
         "--release-candidate",
         default=DEFAULT_CANDIDATE,
-        help="release-candidate tag; names the archive, package root, and report",
+        help=f"release tag naming the archive, package root, and report; {FINAL!r} for a non-candidate release",
     )
     parser.add_argument("--output", type=Path, default=None)
     parser.add_argument("--report", type=Path, default=None)
